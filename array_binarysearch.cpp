@@ -1,3 +1,4 @@
+//binary search of array
 #include<iostream>
 
 using namespace std;
