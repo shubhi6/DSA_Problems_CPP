@@ -2,14 +2,13 @@
 using namespace std;
 int main()
 {
-    int i,n;
-   cin>>n;
+    int i,n,sum;
+    cin>>n;
     for (int i=1;i<=n;i++)
-
-    {
-      (n-1)%n!=0;
-
-        cout<<n<<"\n";
+        {
+            sum+=i;
+        }
+    cout<<sum<<"\n";
+    return 0
 }
-    }
 
