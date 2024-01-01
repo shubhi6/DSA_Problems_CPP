@@ -1,3 +1,5 @@
+//insertion code for random insertion in fixed size array
+
 #include<iostream>
 using namespace std;
 
@@ -15,7 +17,7 @@ int insert(int n, int arr[], int x, int pos) {
 }
 
 int main() {
-    int arr[15] = {2, 4, 1, 8, 5};
+    int arr[10] = {3,8,5,6,7};
     int n = 5;
 
     cout << "\n Before insertion: \n";
