@@ -1,4 +1,4 @@
-
+//insertion of the element at the end of the array
 #include <bits/stdc++.h>
 using namespace std;
 
