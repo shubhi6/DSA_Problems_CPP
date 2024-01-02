@@ -13,11 +13,11 @@ using namespace std;
 
 int main() {
 	// your code goes here
-	int t;
+	int t;  // total number of test cases
 	cin>>t;
 	while(t--)
 	{
-	    int v,b;
+	    int v,b;  // actual solution
 	    cin>>v>>b;
 	    if(abs(v-b)%2==0)
 	    cout<<"yes"<<endl;
