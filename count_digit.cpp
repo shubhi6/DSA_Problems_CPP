@@ -1,3 +1,5 @@
+//code to calculate count digits of a number
+
 #include<iostream>
 using namespace std;
  int main()
