@@ -1,3 +1,5 @@
+// Recursive implementation to calculate factorial of a number
+
 #include<iostream>
 using namespace std;
 
@@ -8,10 +10,10 @@ int fact(int n)
 	return  n*fact(n-1);
 	
 }
-
+// driver code
 int main()
 {
-	int t;
+    int t; 
     cout<<"Number of Test Cases = ";
     cin>>t;
     while(t--)
