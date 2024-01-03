@@ -1,3 +1,5 @@
+// naive method to calculate (GCD) greatest common divider of two numbers
+
 #include<iostream>
 #include<math.h>
 using namespace std;
@@ -16,7 +18,7 @@ int GCD(int n,int m)
 	return res;
 	
 }
-
+// driver code
 int main()
 {
     int t;
