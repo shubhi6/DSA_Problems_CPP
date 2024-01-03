@@ -1,3 +1,4 @@
+//Iterative implementation to calculate factorial of a number
 #include<iostream>
 using namespace std;
 
@@ -9,7 +10,7 @@ int fact(int n)
 	return res;	
 	
 }
-
+//driver code
 int main()
 {
 	int t;
