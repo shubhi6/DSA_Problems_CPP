@@ -1,3 +1,5 @@
+// Euclidean algorithtm to calculate GCD of two numbers
+
 #include<iostream>
 #include<math.h>
 using namespace std;
@@ -9,7 +11,7 @@ int GCD(int n,int m)
 		else
 		return GCD(m,n%m);
 }
-
+// driver code
 int main()
 {
     int t;
