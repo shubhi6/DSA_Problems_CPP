@@ -1,3 +1,5 @@
+// method to trail the zeros in the factorial of a number
+
 #include<iostream>
 using namespace std;
 
@@ -9,7 +11,7 @@ int trailing_of_zeros(int n)
 	return res;
 	
 }
-
+// driver code
 int main()
 {
     int t;
