@@ -1,3 +1,5 @@
+// calculation of (LCM) least common multiple of two numbers
+
 #include<iostream>
 #include<math.h>
 using namespace std;
@@ -15,7 +17,7 @@ int LCM(int n,int m)
 	return (n*m)/GCD(n,m);
 	
 }
-
+// driver code
 int main()
 {
     int t;
