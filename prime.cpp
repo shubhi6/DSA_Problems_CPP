@@ -1,3 +1,5 @@
+//calculating whether the number is prime or not
+
 #include<iostream>
 #include<math.h>
 using namespace std;
