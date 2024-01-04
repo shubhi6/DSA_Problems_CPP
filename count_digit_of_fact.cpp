@@ -1,3 +1,5 @@
+// we can count the  number of digits in a factorial of a number
+
 #include<iostream>
 using namespace std;
 
