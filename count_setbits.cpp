@@ -1,3 +1,5 @@
+// through this code we can calculate how many bits of a number are set in its binary form
+
 #include<iostream>
 using namespace std;
 
