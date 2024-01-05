@@ -1,17 +1,19 @@
+// implementation of bitwise operator in 2 parts
+
 #include<iostream>
 using namespace std;
 
     // bitwise LEFT SHIFT operator
 
-//int main()
-//{
-//	int x=3; int y=4;
-//	cout<<(x<<1)<<endl;
-//	cout<<(x<<2)<<endl;
-//	
-//	int z=(x<<y);
-//	cout<<(x<<y)<<endl;
-//}
+int main()
+{
+	int x=3; int y=4;
+	cout<<(x<<1)<<endl;
+	cout<<(x<<2)<<endl;
+	
+	int z=(x<<y);
+	cout<<(x<<y)<<endl;
+}
 
    // bitwise RIGHT SHIFT operator
 
