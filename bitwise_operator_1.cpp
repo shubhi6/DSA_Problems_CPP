@@ -1,3 +1,6 @@
+// implementation of bitwise operator in 3 parts
+
+
 #include<iostream>
 using namespace std;
      // bitwise AND operator
