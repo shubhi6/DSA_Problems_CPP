@@ -1,3 +1,5 @@
+// through this code we can check whether given number is power of two or not
+
 #include<iostream>
 using namespace std;
 
@@ -13,6 +15,7 @@ int ispowerof2(int n)
 int main()
 {
 	int n;
+	cout<<"enter a number = ";
 	cin>>n;
 	cout<<ispowerof2(n)<<endl;
 }
