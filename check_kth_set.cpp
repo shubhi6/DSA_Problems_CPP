@@ -1,3 +1,5 @@
+// through this code we can check whether the kth bit of the number in binary form is set or not
+
 #include<iostream>
 using namespace std;
 
@@ -14,7 +16,9 @@ int iskthset(int n, int k)
 int main()
 {
 	int k,n;
+	cout<<"enter a number = ";
 	cin>>n;
+	cout<<"enter the bit = ";
 	cin>>k;
 	cout<<iskthset(n,k)<<endl;
 }
