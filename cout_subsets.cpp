@@ -1,3 +1,7 @@
+// Through this code we can find the subsets whose sum is equal to the target sum
+// Example if arr={ 10,2,5,6,3} and target sum is 8 then a our output will be 2.
+// Because {2,6} and {5,3} are two subsets whose sum is 8.
+
 #include<iostream>
 using namespace std;
 
