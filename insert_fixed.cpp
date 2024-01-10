@@ -1,43 +1,59 @@
-//insertion code for random insertion in fixed size array
-
 #include<iostream>
 using namespace std;
 
-int insert(int n, int arr[], int x, int pos) {
-    if (pos < 0 || pos > n) {
-        cout << "Invalid position for insertion." << endl;
-        return n; // Return the original size of the array
-    }
+int insert(int arr[], int n, int x, int cap, int pos)
+{
+	if(n == cap)
+		return n;
 
-    for (int i = n - 1; i >= pos; i--) {
-        arr[i + 1] = arr[i];
-    }
-    arr[pos] = x;
-    return (n + 1);
-}
+	int idx = pos - 1;
 
+	for(int i = n - 1; i >= idx; i--)
+	{
+		arr[i + 1] = arr[i];
+	}
+
+	arr[idx] = x;
+
+	return n + 1;
+} 
+
+
+    
 int main() {
-    int arr[10] = {3,8,5,6,7};
-    int n = 5;
+	
+       int arr[5], cap = 5, n = 3;
 
-    cout << "\n Before insertion: \n";
-    for (int i = 0; i < n; i++)
-        cout << arr[i] << " " << endl;
+       arr[0] = 5; arr[1] = 10; arr[2] = 20;
 
-    cout << "element to be inserted = ";
-    int x;
-    cin >> x;
+       cout<<"Before Insertion"<<endl;
 
-    int pos;
-    cout << "enter the position to insert element= ";
-    cin >> pos;
+       for(int i=0; i < n; i++)
+       {
+       	cout<<arr[i]<<" ";
+       }
 
-    n = insert(n, arr, x, pos);
+       cout<<endl;
 
-    cout << "\n After Insertion: \n";
-    for (int i = 0; i < n; i++)
-        cout << arr[i] << " " << endl;
+       int x = 7, pos = 2;
 
-    return 0;
+       n = insert(arr, n, x, cap, pos);
+
+       cout<<"After Insertion"<<endl;
+
+       for(int i=0; i < n; i++)
+       {
+       		cout<<arr[i]<<" ";
+       }
+    
+	for(int j=0;j<n;j++)
+	{
+		cin>>arr[j];
+	}
+	cout<<"Enter a key = ";
+	cin>>x;
+	cout<<insert(arr,n,x,cap,pos);
+	return 0;
+	
+	
 }
-
