@@ -1,3 +1,5 @@
+//Through this code we can find whether the array is sorted or not.
+
 #include <iostream>
 #include <cmath>
 using namespace std;
