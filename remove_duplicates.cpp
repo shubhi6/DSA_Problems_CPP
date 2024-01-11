@@ -1,3 +1,5 @@
+//Through this code we can remove all the duplicate elements of the array and create a new array of reduced size.
+
 #include<iostream>
 using namespace std;
 
