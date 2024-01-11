@@ -1,6 +1,8 @@
+//Through this code we can get the second largest number or element of the array.
+
 #include<iostream>
 using namespace std;
-
+//To get the largest number or element of the array.
 int getlargest(int arr[], int n)
 {
 	int i,res=0;
@@ -12,7 +14,7 @@ int getlargest(int arr[], int n)
 	return res;
 	
 }
-
+//To get the second largest number or element of the array.
 int secondlargest(int arr[],int n)
 {
 	int largest=getlargest(arr,n);
