@@ -1,3 +1,5 @@
+//Through this code we can get the largest number or element of the array.
+
 #include<iostream>
 using namespace std;
 
