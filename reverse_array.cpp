@@ -1,3 +1,5 @@
+//Through this code we can reverse all the elements in the array.
+
 #include<iostream>
 using namespace std;
 
