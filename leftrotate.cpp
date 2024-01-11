@@ -1,3 +1,5 @@
+//Through this code we can shift first element to the last and last to the n-1 index.
+
 #include<iostream>
 using namespace std;
 
