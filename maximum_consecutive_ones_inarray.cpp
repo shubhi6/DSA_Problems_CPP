@@ -1,3 +1,13 @@
+//Through this code we can find the count of the maximum number of consecutive 1's present in the array.
+
+//Examples : 
+
+//Input: arr[] = {1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1}
+//Output: 4
+
+//Input: arr[] = {0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1}
+//Output: 1
+
 #include<iostream>
 #include<cmath>
 using namespace std;
