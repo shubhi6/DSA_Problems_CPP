@@ -1,3 +1,9 @@
+//Through this code we can find or optimize how many times a number or an elements in an array are repeated.
+//ex if array is given as A[6]={ 10 20 20 30 30 30 }
+//output will be   :  10    1
+//                    20    2
+//                    30    3
+
 #include<iostream>
 #include<cmath>
 using namespace std;
