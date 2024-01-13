@@ -1,3 +1,19 @@
+//Through this code we can find the maximum sum of a circular subarray which includes normal subarray as well as only circular subarray.
+// Examples: 
+
+// Input: arr[] = {8, -8, 9, -9, 10, -11, 12}
+// Output: 22 
+// Explanation: Subarray 12, 8, -8, 9, -9, 10 gives the maximum sum, that is 22.
+
+// Input: arr[] = {10, -3, -4, 7, 6, 5, -4, -1} 
+// Output:  23 
+// Explanation: Subarray 7, 6, 5, -4, -1, 10 gives the maximum sum, that is 23.
+
+// Input: arr[] = {-1, 40, -14, 7, 6, 5, -4, -1}
+// Output: 52 
+// Explanation: Subarray 7, 6, 5, -4, -1, -1, 40 gives the maximum sum, that is 52.
+
+
 #include<iostream>
 using namespace std;
 
