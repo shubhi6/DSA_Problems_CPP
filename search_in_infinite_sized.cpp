@@ -1,3 +1,5 @@
+//Through this code we can find the target in an infinite lenght array.
+
 #include<iostream>
 using namespace std;
 
