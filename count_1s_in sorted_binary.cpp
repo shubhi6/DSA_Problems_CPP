@@ -1,3 +1,16 @@
+// Given a binary array arr[] of size N, which is sorted in non-decreasing order, count the number of 1’s in it. 
+
+// Examples: 
+
+// Input: arr[] = {0,0, 0, 0, 0, 1, 1}
+// Output: 2
+
+// Input: arr[] = {1, 1, 1, 1, 1, 1, 1}
+// Output: 7
+
+// Input: arr[] = {0, 0, 0, 0, 0, 0, 0}
+// Output: 0
+
 #include<iostream>
 using namespace std;
 
