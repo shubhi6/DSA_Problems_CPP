@@ -1,3 +1,16 @@
+// Through this code we can find whether the subarray of two elements is present with their sum equal to given sum
+
+// EXAMPLE:
+// INPUT: arr=[ 2,5,8,12,30]  x=17
+// OUTPUT=  Pair is present
+
+// INPUT: arr=[ 1 2 3 5 15]  x=20
+// OUTPUT=  Pair is present
+
+// INPUT: arr=[ 3 8 13 18]  x=14
+// OUTPUT=  Pair is not present
+   
+
 #include<iostream>
 using namespace std;
 
