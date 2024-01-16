@@ -1,3 +1,17 @@
+//Through this code we can find a peak element in the array. A peak element is an element whose neighbors have value smaller than that of the element. 
+
+// Note: For corner elements, we need to consider only one neighbor. 
+
+// Example:
+
+// Input: array[]= {5, 10, 20, 15}
+// Output: 20
+// Explanation: The element 20 has neighbors 10 and 15, both of them are less than 20.
+
+// Input: array[] = {10, 20, 15, 2, 23, 90, 67}
+// Output: 20 or 90
+// Explanation: The element 20 has neighbors 10 and 15, both of them are less than 20, similarly 90 has neighbors 23 and 67.
+
 #include<iostream>
 using namespace std;
 
