@@ -1,3 +1,21 @@
+// Given two sorted arrays, arr1[] and arr2[], the task is to find the median of these sorted arrays,
+//where N is the number of elements in the first array, and M is the number of elements in the second array. 
+
+// This is an extension of median of two sorted arrays of equal size problem. Here we handle arrays of unequal size also.
+
+// Examples: 
+
+// Input: arr1[] = {-5, 3, 6, 12, 15},arr2[] = {-12, -10, -6, -3, 4, 10}
+// Output: The median is 3.
+// Explanation: The merged array is: ar3[] = {-12, -10, -6, -5 , -3, 3, 4, 6, 10, 12, 15}.
+// So the median of the merged array is 3
+
+// Input: arr1[] = {2, 3, 5, 8}, arr2[] = {10, 12, 14, 16, 18, 20}
+// Output: The median is 11.
+// Explanation : The merged array is: ar3[] = {2, 3, 5, 8, 10, 12, 14, 16, 18, 20}
+// If the number of the elements are even. So there are two middle elements.
+// Take the average between the two: (10 + 12) / 2 = 11.
+
 #include <iostream>
 #include <climits>  // Include the necessary header for INT_MAX and INT_MIN
 using namespace std;
