@@ -1,4 +1,19 @@
- #include<iostream>
+// C++ STL provides a built-in function sort() that sorts a vector or array (items with random access). 
+
+// Syntax to sort an Array:
+ 
+// sort(arr, arr+n);
+
+// Here, arr is the name or base address of the array
+// and, n is the size of the array.
+
+// How to sort in descending order?
+	
+// The sort() function takes a third parameter that is used to specify the order in which elements are to be sorted.
+// We can pass "greater<type> ()" function to sort in descending order. 
+// This function does comparison in a way that puts greater element before.
+
+#include<iostream>
  #include<algorithm>
 using namespace std;
 
