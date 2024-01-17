@@ -1,3 +1,12 @@
+// Given two sorted arrays, the task is to merge them in a sorted manner.
+// Examples: 
+
+// Input: a[] = { 1, 3, 4, 5}, b[] = {2, 4, 6, 8} 
+// Output: Array after merging = {1, 2, 3, 4, 4, 5, 6, 8}
+
+// Input: a[] = { 5, 8, 9}, ab[] = {4, 7, 8} 
+// Output: Array after merging = {4, 5, 7, 8, 8, 9} 
+
 #include<iostream>
 #include<algorithm>
 using namespace std;
@@ -46,7 +55,7 @@ int main()
     for (j = 0; j < m; j++)
     cin >> b[j];
 
-    cout << "\nArray after merging" << "\n";
+    cout << "\nArray after merging = " << "\n";
     merge(a, n, b, m);
 
     return 0;
