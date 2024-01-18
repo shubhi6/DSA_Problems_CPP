@@ -1,11 +1,33 @@
+// Hoare’s Partition Scheme:
+
+// Hoare’s Partition Scheme works by initializing two indexes that start at two ends, the two indexes move toward each other until an inversion is (A smaller value on the left side and greater value on the right side) found. When an inversion is found, two values are swapped and the process is repeated.
+
+// Algorithm:
+
+// partition(arr[], lo, hi)
+//    pivot = arr[lo]
+//    i = lo - 1  // Initialize left index
+//    j = hi + 1  // Initialize right index
+
+//    // Find a value in left side greater
+//    // than pivot
+//    do
+//       i = i + 1
+//    while arr[i] < pivot
+
+//    // Find a value in right side smaller
+//    // than pivot
+//    do
+//       j--;
+//    while (arr[j] > pivot);
+
+//    if i >= j then 
+//       return j
+
+//    swap arr[i] with arr[j]
+
 #include <bits/stdc++.h>
 using namespace std;
- 
-/* This function takes first element as pivot, and places
-   all the elements smaller than the pivot on the left side
-   and all the elements greater than the pivot on
-   the right side. It returns the index of the last element
-   on the smaller side*/
 int partition(int arr[], int low, int high)
 {
     int pivot = arr[low];
