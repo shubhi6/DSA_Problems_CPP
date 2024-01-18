@@ -1,3 +1,27 @@
+// Naive partition: In this partition helps to maintain the relative order of the elements but this partition takes O(n) extra space.
+// Naive partition
+
+// Algorithm:
+
+// Naivepartition(arr[],l,r)
+// 1. Make a Temporary array temp[r-l+1] length
+// 2. Choose last element as a pivot element
+// 3. Run two loops:
+//     -> Store all the elements in the temp array that are less than pivot element
+//     -> Store the pivot element 
+//     -> Store all the elements in the temp array that are greater than pivot element.
+// 4.Update all the elements of arr[] with the temp[] array    
+
+
+// QuickSort(arr[], l,  r)
+// If r > l
+//      1. Find the partition point of the array  
+//               m = Naivepartition(a,l,r) 
+//      2. Call Quicksort for less than partition point   
+//              Call Quicksort(arr, l, m-1)
+//      3. Call Quicksort for greater than the partition point 
+//              Call Quicksort(arr, m+1, r)
+
 #include <iostream>
 using namespace std;
 
