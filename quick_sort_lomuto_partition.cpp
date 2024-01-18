@@ -1,3 +1,17 @@
+// Lomuto’s Partition Scheme:
+
+// This algorithm works by assuming the pivot element as the last element. If any other element is given as a pivot element then swap it first with the last element. Now initialize two variables i as low and j also low,  iterate over the array and increment i when arr[j] <= pivot and swap arr[i] with arr[j] otherwise increment only j. After coming out from the loop swap arr[i] with arr[hi]. This i stores the pivot element.
+
+// partition(arr[], lo, hi) 
+//     pivot = arr[hi]
+//     i = lo-1     // place for swapping
+//     for j := lo to hi – 1 do
+//         if arr[j] <= pivot then
+//             i = i + 1 
+//             swap arr[i] with arr[j]
+//     swap arr[i+1] with arr[hi]
+//     return i+1
+
 #include<bits/stdc++.h>
 using namespace std;
 
