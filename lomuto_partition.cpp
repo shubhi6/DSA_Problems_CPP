@@ -1,3 +1,30 @@
+// Lomuto partition: In this partition, The last element chooses as a pivot in this partition. 
+//  The pivot acquires its required position after partition but more comparison takes place in this partition.
+// Lomuto partition 
+
+// Lomuto’s Partition Algorithm (unstable algorithm)
+// Lomutopartition(arr[], lo, hi) 
+
+//     pivot = arr[hi]
+//     i = lo     // place for swapping
+//     for j := lo to hi – 1 do
+//         if arr[j] <= pivot then
+//             swap arr[i] with arr[j]
+//             i = i + 1
+//     swap arr[i] with arr[hi]
+//     return i
+
+    
+// QuickSort(arr[], l,  r)
+
+// If r > l
+//      1. Find the partition point of the array  
+//               m =Lomutopartition(a,l,r) 
+//      2. Call Quicksort for less than partition point   
+//              Call Quicksort(arr, l, m-1)
+//      3. Call Quicksort for greater than the partition point 
+//              Call Quicksort(arr, m+1, r)
+
 #include <iostream>
 using namespace std;
 
