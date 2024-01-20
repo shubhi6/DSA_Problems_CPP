@@ -1,3 +1,15 @@
+// Merge Overlapping Intervals Space Optimized Approach
+// The above solution requires O(n) extra space for the stack. We can avoid the use of extra space by doing merge operations in place. Below are detailed steps. 
+
+// Follow the steps mentioned below to implement the approach:
+
+// Sort all intervals in increasing order of start time.
+// Traverse sorted intervals starting from the first interval, 
+// Do the following for every interval.
+// If the current interval is not the first interval and it overlaps with the previous interval,
+//  then merge it with the previous interval. Keep doing it while the interval overlaps with the previous one.         
+//  Otherwise, Add the current interval to the output list of intervals.
+
 #include <iostream>
 #include <algorithm>
 using namespace std;
