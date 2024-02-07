@@ -1,3 +1,63 @@
+// Given a Square Matrix of dimension N * N. The task is to rotate the matrix in anti-clock wise direction by 90 degrees.
+
+
+
+// On observing carefully, we can easily conclude that:
+// first row of destination ------> last column of source
+// second row of destination ------> second last column of source
+// .
+// .
+// .
+// .
+// last row of destination ------> first column of source
+
+
+
+// Below steps demonstrate the idea:
+// First Cycle (Involves Red Elements)
+//  1  2  3 4 
+//  5  6  7  8 
+//  9 10 11 12 
+//  13 14 15 16 
+
+ 
+// Moving first group of four elements (First
+// elements of 1st row, last row, 1st column 
+// and last column) of first cycle in counter
+// clockwise. 
+//  4  2  3 16
+//  5  6  7 8 
+//  9 10 11 12 
+//  1 14  15 13 
+ 
+// Moving next group of four elements of 
+// first cycle in counter clockwise 
+//  4  8  3 16 
+//  5  6  7  15  
+//  2  10 11 12 
+//  1  14  9 13 
+
+// Moving final group of four elements of 
+// first cycle in counter clockwise 
+//  4  8 12 16 
+//  3  6  7 15 
+//  2 10 11 14 
+//  1  5  9 13 
+
+
+// Second Cycle (Involves Blue Elements)
+//  4  8 12 16 
+//  3  6 7  15 
+//  2  10 11 14 
+//  1  5  9 13 
+
+// Fixing second cycle
+//  4  8 12 16 
+//  3  7 11 15 
+//  2  6 10 14 
+//  1  5  9 13
+
+
 //anti-clockwise by 90
 
 //#include <iostream>
