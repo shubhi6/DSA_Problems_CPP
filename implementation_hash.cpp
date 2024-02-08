@@ -12,10 +12,6 @@
 
 
 
-// Please refer Hashing | Set 2 (Separate Chaining) for details.
-// We use a list in C++ which is internally implemented as linked list (Faster insertion and deletion).
-
-
 #include <iostream>
 #include <list> // Include the <list> header for using std::list
 using namespace std;
