@@ -1,3 +1,19 @@
+// The task is to design a general Hash Table data structure with Collision case handled and that supports the Insert(), Find(), and Delete() functions.
+
+// Examples:
+
+// Suppose the operations are performed on an array of pairs, {{1, 5}, {2, 15}, {3, 20}, {4, 7}}. And an array of capacity 20 is used as a Hash Table:
+
+// Insert(1, 5): Assign the pair {1, 5} at the index (1%20 =1) in the Hash Table.
+// Insert(2, 15): Assign the pair {2, 15} at the index (2%20 =2) in the Hash Table.
+// Insert(3, 20): Assign the pair {3, 20} at the index (3%20 =3) in the Hash Table.
+// Insert(4, 7): Assign the pair {4, 7} at the index (4%20 =4) in the Hash Table.
+// Find(4): The key 4 is stored at the index (4%20 = 4). Therefore, print the 7 as it is the value of the key, 4, at index 4 of the Hash Table.
+// Delete(4): The key 4 is stored at the index (4%20 = 4). After deleting Key 4, the Hash Table has keys {1, 2, 3}.
+// Find(4): Print -1, as the key 4 does not exist in the Hash Table.
+
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
