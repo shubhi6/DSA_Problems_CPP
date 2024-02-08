@@ -1,3 +1,21 @@
+// In hashing there is a hash function that maps keys to some values. But these hashing functions may lead to a collision that is two or more keys are mapped to same value. 
+//    Chain hashing avoids collision. The idea is to make each cell of hash table point to a linked list of records that have same hash function value.
+
+// Let's create a hash function, such that our hash table has 'N' number of buckets. 
+
+// To insert a node into the hash table, we need to find the hash index for the given key. And it could be calculated using the hash function. 
+
+// Example: hashIndex = key % noOfBuckets
+// Insert: Move to the bucket corresponding to the above-calculated hash index and insert the new node at the end of the list.
+// Delete: To delete a node from hash table, calculate the hash index for the key, move to the bucket corresponding to the calculated hash index, 
+//     and search the list in the current bucket to find and remove the node with the given key (if found).  
+
+
+
+// Please refer Hashing | Set 2 (Separate Chaining) for details.
+// We use a list in C++ which is internally implemented as linked list (Faster insertion and deletion).
+
+
 #include <iostream>
 #include <list> // Include the <list> header for using std::list
 using namespace std;
