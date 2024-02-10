@@ -1,3 +1,14 @@
+// Find the union of two unsorted arrays using hash
+// Example:
+
+// A[]: 2 6 9 4 1
+// B[]: 36 8 1 6 9
+// Size of the union: 7
+
+// A[]:  9 8 2 6 7 4
+// B[]: 2 6 7
+// Size of the union: 6  
+
 #include <iostream>
 #include <unordered_set>
 
