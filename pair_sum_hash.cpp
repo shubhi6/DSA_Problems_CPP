@@ -1,3 +1,15 @@
+// Find whether the pair of given some is present or not using hash.
+
+// Example: 
+
+// A[5] : 6 9 7 8 2
+// Enter the sum value: 25
+// No pair with the given sum exists.
+
+//  A[4] : 15 4 8 1
+// Enter the sum value: 16
+// There exists a pair with the given sum.
+
 #include <iostream>
 #include <unordered_set>
 
