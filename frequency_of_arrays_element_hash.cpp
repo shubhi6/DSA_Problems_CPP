@@ -1,15 +1,14 @@
-Given an array which may contain duplicates, print all elements and their frequencies.
+// Given an array which may contain duplicates, print all elements and their frequencies.
 
-Examples: 
+// Examples:
+// Input :  arr[] = {10, 20, 20, 10, 10, 20, 5, 20}
+// Output : 10 3
+//          20 4
+//          5  1
 
-Input :  arr[] = {10, 20, 20, 10, 10, 20, 5, 20}
-Output : 10 3
-         20 4
-         5  1
-
-Input : arr[] = {10, 20, 20}
-Output : 10 1
-         20 2 
+// Input : arr[] = {10, 20, 20}
+// Output : 10 1
+//          20 2 
 
 #include <bits/stdc++.h>
 using namespace std;
