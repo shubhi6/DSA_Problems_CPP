@@ -3,7 +3,7 @@
 
 // Input: a[] = { 2, 3, 4, 5}, b[] = {2,3,3 6, 8} 
 // Output: Intersection of arrays  = 2 3
-// Input: a[] = { 4,4,5, 7,7,8, 9}, ab[] = {4,5, 7, 8} 
+// Input: a[] = { 4,4,5, 7,7,8, 9}, b[] = {4,5, 7, 8} 
 // Output: Intersection of arrays = 4  5  7  8
 
 #include<iostream>
