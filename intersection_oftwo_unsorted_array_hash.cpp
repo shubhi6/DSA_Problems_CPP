@@ -1,3 +1,11 @@
+// Given two unsorted arrays, the task is to find intersection of two unsorted array using hash.
+// Examples: 
+
+// Input: a[] = {10,1,3,2 4, 5}, b[] = {9,2,3 6, 8} 
+// Output: Intersection of arrays  = 2 3
+// Input: a[] = { 7,7,8 4,4,5, 9}, b[] = { 7,4,5, 8} 
+// Output: Intersection of arrays = 4  5  7  8
+
 #include <bits/stdc++.h>
 using namespace std;
 
