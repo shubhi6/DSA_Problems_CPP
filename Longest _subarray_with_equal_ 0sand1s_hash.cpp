@@ -20,7 +20,7 @@ using namespace std;
 
 int maxLen(int arr[], int n)
 {
-    // Creates an empty hashMap hM
+   
 
     unordered_map<int, int> hM;
 
@@ -31,22 +31,18 @@ int maxLen(int arr[], int n)
     for (int i = 0; i < n; i++)
         arr[i] = (arr[i] == 0) ? -1 : 1;
 
-    // Traverse through the given array
-
     for (int i = 0; i < n; i++) {
-        // Add current element to sum
+      
 
         sum += arr[i];
 
-        // To handle sum=0 at last index
+      
 
         if (sum == 0) {
             max_len = i + 1;
             ending_index = i;
         }
 
-        // If this sum is seen before, then update max_len
-        // if required
 
         if (hM.find(sum) != hM.end()) {
             if (max_len < i - hM[sum]) {
