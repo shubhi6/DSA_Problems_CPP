@@ -1,3 +1,26 @@
+Given an array of size n and an integer k, return the count of distinct numbers in all windows of size k. 
+Example: 
+
+Input: arr[] = {1, 2, 1, 3, 4, 2, 3};
+       k = 4
+Output: 3 4 4 3
+
+Explanation:
+First window is {1, 2, 1, 3}, count of distinct numbers is 3
+Second window is {2, 1, 3, 4} count of distinct numbers is 4
+Third window is {1, 3, 4, 2} count of distinct numbers is 4
+Fourth window is {3, 4, 2, 3} count of distinct numbers is 3
+
+Input: arr[] = {1, 2, 4, 4};
+       k = 2
+Output: 2 2 1
+
+Explanation:
+First window is {1, 2}, count of distinct numbers is 2
+First window is {2, 4}, count of distinct numbers is 2
+First window is {4, 4}, count of distinct numbers is 1
+ 
+
 #include <iostream>
 #include <unordered_map>
 using namespace std;
@@ -7,11 +30,8 @@ void countDistinct(int arr[], int k, int n)
     // Creates an empty hashmap hm
     unordered_map<int, int> hm;
 
-    // initialize distinct element count for current window
     int dist_count = 0;
 
-    // Traverse the first window and store count
-    // of every element in hash map
     for (int i = 0; i < k; i++) {
         if (hm[arr[i]] == 0) {
             dist_count++;
@@ -19,22 +39,16 @@ void countDistinct(int arr[], int k, int n)
         hm[arr[i]] += 1;
     }
 
-    // Print count of first window
+   
     cout << dist_count << endl;
 
-    // Traverse through the remaining array
     for (int i = k; i < n; i++) {
-        // Remove first element of previous window
-        // If there was only one occurrence, then reduce distinct count.
+       
         if (hm[arr[i - k]] == 1) {
             dist_count--;
         }
         // reduce count of the removed element
         hm[arr[i - k]] -= 1;
-
-        // Add new element of current window
-        // If this element appears first time,
-        // increment distinct element count
 
         if (hm[arr[i]] == 0) {
             dist_count++;
