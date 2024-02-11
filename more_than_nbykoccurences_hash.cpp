@@ -1,3 +1,17 @@
+//Implementation to find more than N/K occurences using hash.
+// Example: 
+
+//Input: arr[8] = { 30 ,10 ,20 ,20 ,10, 20, 30 ,30}
+// Key=4
+//Output: 20 30
+//[NOTE: N=8 and N/K=8/4=2]
+
+//Input: arr[8] = { 30, 10, 20, 30, 30, 40, 30, 40, 30}
+// Key=2
+//Output: 30
+//[NOTE: N=9 and N/K=9/2=4.5]
+
+
 #include<iostream>
 #include<unordered_map>
 using namespace std;
