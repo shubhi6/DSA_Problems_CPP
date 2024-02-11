@@ -1,11 +1,11 @@
-Given an array containing only 0s and 1s, find the largest subarray which contains equal no of 0s and 1s. 
-The expected time complexity is O(n). 
+// Given an array containing only 0s and 1s, find the largest subarray which contains equal no of 0s and 1s. 
+// The expected time complexity is O(n). 
 
-Examples: 
+// Examples: 
 
-Input: arr[] = {1, 0, 1, 1, 1, 0, 0}
-Output: 1 to 6 
-(Starting and Ending indexes of output subarray)
+// Input: arr[] = {1, 0, 1, 1, 1, 0, 0}
+// Output: 1 to 6 
+// (Starting and Ending indexes of output subarray)
 
 // Input: arr[] = {1, 1, 1, 1}
 // Output: No such subarray
