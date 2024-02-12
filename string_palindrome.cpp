@@ -1,14 +1,14 @@
-A palindrome is a word, phrase, number, or other sequences of characters which reads the same forward and backward (ignoring spaces, punctuation, and capitalization). 
+// A palindrome is a word, phrase, number, or other sequences of characters which reads the same forward and backward (ignoring spaces, punctuation, and capitalization). 
 
-EXAMPLE:
-INPUT: Enter a string : hujjuh
-OUTPUT: hujjuh is a palindrome
+// EXAMPLE:
+// INPUT: Enter a string : hujjuh
+// OUTPUT: hujjuh is a palindrome
 
-INPUT: Enter a string : kokookok
-OUTPUT: kokookok is a palindrome
+// INPUT: Enter a string : kokookok
+// OUTPUT: kokookok is a palindrome
 
-INPUT: Enter a string : shut
-OUTPUT: shut is not palindrome
+// INPUT: Enter a string : shut
+// OUTPUT: shut is not palindrome
 
 
 #include <iostream>
