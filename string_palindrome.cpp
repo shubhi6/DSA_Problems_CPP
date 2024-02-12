@@ -1,3 +1,6 @@
+A palindrome is a word, phrase, number, or other sequences of characters which reads the same forward and backward (ignoring spaces, punctuation, and capitalization). 
+In this article, we'll discuss how to check if a given string is a palindrome or not in C++.
+
 #include <iostream>
 #include <string>
 using namespace std;
