@@ -1,4 +1,5 @@
-Problem: Given two strings, check whether two strings are an anagram of each other. Two strings are said to be an anagram of each other if they are just permutations of each other. That is, the set of characters in both the strings must be the same, only the order of characters can be different.
+Problem: Given two strings, check whether two strings are an anagram of each other. 
+ Two strings are said to be an anagram of each other if they are just permutations of each other. That is, the set of characters in both the strings must be the same, only the order of characters can be different.
 
  
 
