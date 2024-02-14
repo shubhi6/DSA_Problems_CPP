@@ -1,14 +1,14 @@
 //Reverse words in a given string
-Let the input string be “i like this program very much”. 
-The function should change the string to “much very program this like i”
+// Let the input string be “i like this program very much”. 
+// The function should change the string to “much very program this like i”
 
-Examples: 
+// Examples: 
 
-INPUT: "hello my name is space"
-OUTPUT: "space is name my hello"
+// INPUT: "hello my name is space"
+// OUTPUT: "space is name my hello"
 
-INPUT: "a is the first letter"
-OUTPUT: "letter first the is a"    
+// INPUT: "a is the first letter"
+// OUTPUT: "letter first the is a"    
 
 
 #include <iostream>
