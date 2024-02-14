@@ -4,11 +4,11 @@
 
 // Examples: 
 
-// INPUT: "hello my name is space"
-// OUTPUT: "space is name my hello"
+// INPUT: "hello my name is space."
+// OUTPUT: "space is name my hello."
 
-// INPUT: "a is the first letter"
-// OUTPUT: "letter first the is a"    
+// INPUT: "a is the first letter."
+// OUTPUT: "letter first the is a."    
 
 
 #include <iostream>
