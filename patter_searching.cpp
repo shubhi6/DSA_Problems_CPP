@@ -2,7 +2,6 @@
 // Assume n > m.
 #include <iostream>
 #include <cstring>
-
 using namespace std;
 
 void search(char* pat, char* txt) {
