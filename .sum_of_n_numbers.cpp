@@ -1,5 +1,6 @@
 //sum of n natural numbers
 
+
 #include<iostream>
 using namespace std;
 int main()
@@ -11,6 +12,6 @@ int main()
             sum+=i;
         }
     cout<<sum<<"\n";
-    return 0
+    return 0;
 }
 
