@@ -2,6 +2,8 @@
 // The GCD (Greatest Common Divisor) of two or more integers is the largest positive integer that divides each of the integers without leaving a remainder.
 // For example, the GCD of 8 and 12 is 4 because 4 is the largest integer that divides both 8 and 12 without leaving a remainder.
 
+EXAMPLES: 
+
 INPUT : Enter Two Number =  6   9
 OUTPUT : GCD of Numbers = 3
 INPUT : Enter Two Number =  7   9
