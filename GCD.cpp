@@ -4,12 +4,12 @@
 
 INPUT : Enter Two Number =  6   9
 OUTPUT : GCD of Numbers = 3
-Enter Two Number =  7   9
-GCD of Numbers = 1
-Enter Two Number =  5   15
-GCD of Numbers = 5
-Enter Two Number =  8   4
-GCD of Numbers = 4
+INPUT : Enter Two Number =  7   9
+OUTPUT : GCD of Numbers = 1
+INPUT : Enter Two Number =  5   15
+OUTPUT : GCD of Numbers = 5
+INPUT : Enter Two Number =  8   4
+OUTPUT : GCD of Numbers = 4
 	
 #include<iostream>
 #include<math.h>
