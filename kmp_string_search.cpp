@@ -1,14 +1,6 @@
 // Given a text txt[0..N-1] and a pattern pat[0..M-1], write a function search(char pat[], char txt[]) that prints all occurrences of pat[] in txt[].
 // Assume that N > M. 
 
-// Examples:
-
-// Input:  txt[] = "THIS IS A TEST TEXT", pat[] = "TEST"
-// Output: Pattern found at index 10
-
-// Input:  txt[] =  "AABAACAADAABAABA"
-//           pat[] =  "AABA"
-// Output: Pattern found at index 0, Pattern found at index 9, Pattern found at index 12
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -70,3 +62,12 @@ int main() {
     return 0;
 }
 
+
+// Examples:
+
+// Input:  txt[] = "THIS IS A TEST TEXT", pat[] = "TEST"
+// Output: Pattern found at index 10
+
+// Input:  txt[] =  "AABAACAADAABAABA"
+//           pat[] =  "AABA"
+// Output: Pattern found at index 0, Pattern found at index 9, Pattern found at index 12
