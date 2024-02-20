@@ -19,7 +19,7 @@ int longestSubstrDistinctChars(string s) {
     int len = 1;
     st.insert(s[0]);
     int i = 1;
-    int maxLen = 0
+    int maxLen = 0;
     while (i < n) {
         if (s[i] != s[i - 1] && st.find(s[i]) == st.end()) {
             st.insert(s[i]);
