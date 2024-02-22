@@ -1,4 +1,4 @@
-Explanation:
+//Explanation:
 
 * We define a Node structure to represent each node in the linked list. Each node contains an integer data and a pointer next to the next node.
 * The traverseLinkedList function takes the head of the linked list as an argument and traverses the list from the head to the end, 
