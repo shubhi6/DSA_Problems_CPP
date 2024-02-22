@@ -1,6 +1,6 @@
 //Explanation:
 
-* We define a Node structure to represent each node in the linked list. Each node contains an integer data and a pointer next to the next node.
+//* We define a Node structure to represent each node in the linked list. Each node contains an integer data and a pointer next to the next node.
 * The traverseLinkedList function takes the head of the linked list as an argument and traverses the list from the head to the end, 
   printing the data of each node.
 * In the main function, we create a linked list by creating nodes and linking them together using the next pointers.
