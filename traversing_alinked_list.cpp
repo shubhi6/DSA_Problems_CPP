@@ -4,7 +4,8 @@
 // * The traverseLinkedList function takes the head of the linked list as an argument and traverses the list from the head to the end, 
 //    printing the data of each node.
 // * In the main function, we create a linked list by creating nodes and linking them together using the next pointers.
-* Finally, we call the traverseLinkedList function with the head of the linked list to print its elements.
+// * Finally, we call the traverseLinkedList function with the head of the linked list to print its elements.
+
 #include<iostream>
 using namespace std;
 
