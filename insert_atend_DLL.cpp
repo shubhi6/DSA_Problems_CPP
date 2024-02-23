@@ -1,3 +1,14 @@
+// The new node is always added after the last node of the given Linked List. 
+// This can be done using the following 7 steps:
+
+// * Create a new node (say new_node).
+// * Put the value in the new node.
+// * Make the next pointer of new_node as null.
+// * If the list is empty, make new_node as the head.
+// * Otherwise, travel to the end of the linked list.
+// * Now make the next pointer of last node point to new_node.
+// * Change the previous pointer of new_node to the last node of the list.
+
 #include <iostream>
 using namespace std;
 
