@@ -1,3 +1,5 @@
+//The idea is simple, we print current node and recur for remaining list. 
+
 #include<iostream>
 using namespace std;
 
