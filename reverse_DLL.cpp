@@ -1,3 +1,18 @@
+//Given a Doubly Linked List, the task is to reverse the given Doubly Linked List.
+
+// Follow the given steps to solve the problem using the above approach:
+
+// * Traverse the linked list using a pointer
+// * Swap the prev and next pointers for all nodes
+// * At last, change the head pointer of the doubly linked list
+
+// Example:
+    
+// Original Linked list
+// 10 8 4 2 
+// Reversed Linked list
+// 2 4 8 10 
+    
 #include <bits/stdc++.h>
 using namespace std;
 
