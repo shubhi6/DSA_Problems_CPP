@@ -1,3 +1,8 @@
+// * The Node struct represents each node in the doubly linked list, containing integer data, and pointers to the previous and next nodes.
+// * The insertAtBeginning function inserts a new node at the beginning of the list. 
+//   It creates a new node with the given data, updates its pointers accordingly, and returns the new head of the list.
+// * The printList function traverses the doubly linked list from the given head node and prints the data of each node.
+
 #include <iostream>
 using namespace std;
 
