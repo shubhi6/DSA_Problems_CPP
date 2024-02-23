@@ -1,3 +1,7 @@
+// * The new node is always added after the last node of the given Linked List. 
+//   For example if the given Linked List is 5->10->15->20->25 and we add an item 30 at the end, then the Linked List becomes 5->10->15->20->25->30. 
+// * Since a Linked List is typically represented by the head of it, we have to traverse the list till the end and then change the next to last node to a new node.
+
 #include<iostream>
 using namespace std;
 
