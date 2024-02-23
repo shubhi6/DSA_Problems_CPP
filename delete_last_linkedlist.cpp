@@ -1,3 +1,19 @@
+// Given a linked list, the task is to remove the last node of the linked list and update the head pointer of the linked list.
+
+// Examples:  
+
+// Input: 1 -> 2 -> 3 -> 4 -> 5 -> NULL
+// Output: 1 -> 2 -> 3 -> 4 -> NULL
+
+// Explanation: The last node of the linked list
+// is 5, so 5 is deleted.
+
+// Input: 2 -> 4 -> 6 -> 8 -> 33 -> 67 -> NULL
+// Output: 2 -> 4 -> 6 -> 8 -> 33 -> NULL
+
+// Explanation: The last node of the linked list
+// is 67, so 67 is deleted. 
+
 #include <iostream>
 using namespace std;
 
