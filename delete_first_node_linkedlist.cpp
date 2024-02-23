@@ -1,3 +1,15 @@
+// Given a linked list, the task is to remove the first node of the linked list and update the head pointer of the linked list. 
+
+// Examples: 
+
+// Input : 1 -> 2 -> 3 -> 4 -> 5 -> NULL
+// Output : 2 -> 3 -> 4 -> 5 -> NULL
+
+// Input : 2 -> 4 -> 6 -> 8 -> 33 -> 67 -> NULL
+// Output : 4 -> 6 -> 8 -> 33 -> 67 -> NULL
+
+// To remove the first node, we need to make the second node as head and delete the memory allocated for the first node.  
+
 #include<iostream>
 using namespace std;
 
