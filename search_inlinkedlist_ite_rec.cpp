@@ -1,3 +1,5 @@
+//Write a function that searches a given key ‘x’ in a given singly linked list. Here two soultions are given one of which is iterative and another is recursive.
+
 //....................ITERATIVE..............
 
 #include <bits/stdc++.h> 
