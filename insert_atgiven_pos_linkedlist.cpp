@@ -1,3 +1,14 @@
+// Add a node after a given node: (5 steps process) 
+// Approach: We are given a pointer to a node, and the new node is inserted after the given node.
+
+// Follow the steps to add a node after a given node:
+
+// * Firstly, check if the given previous node is NULL or not.
+// * Then, allocate a new node and
+// * Assign the data to the new node
+// * And then make the next of new node as the next of previous node. 
+// * Finally, move the next of the previous node as a new node.
+
 #include<iostream>
 using namespace std;
 
