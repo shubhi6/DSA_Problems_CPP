@@ -1,3 +1,5 @@
+// Write a function to delete the last node in a doubly-linked list. 
+
 #include <bits/stdc++.h> 
 using namespace std; 
 
