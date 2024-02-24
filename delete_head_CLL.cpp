@@ -1,3 +1,12 @@
+// Deleting head node from Singly Circular Linked List
+// Examples:  
+
+// Input : 99->11->22->33->44->55->66
+// Output : 11->22->33->44->55->66
+
+// Input : 11->22->33->44->55->66
+// Output : 22->33->44->55->66
+
 //...................Naive Approach.................
 
 #include <bits/stdc++.h> 
