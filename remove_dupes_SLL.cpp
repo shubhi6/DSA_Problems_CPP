@@ -1,3 +1,19 @@
+// Write a function that takes a list sorted in non-decreasing order and deletes any duplicate nodes from the list. The list should only be traversed once. 
+// For example if the linked list is 11->11->11->21->43->43->60 then removeDuplicates() should convert the list to 11->21->43->60. 
+
+// Algorithm: Traverse the list from the head (or start) node. While traversing, compare each node with its next node. 
+// If the data of the next node is the same as the current node then delete the next node. Before we delete a node, we need to store the next pointer of the node 
+
+// Implementation: Functions other than removeDuplicates() are just to create a linked list and test removeDuplicates(). 
+
+// EXAMPLE:
+
+// Linked list before duplicate removal  11 11 11 13 13 20
+// Linked list after duplicate removal  11 13 20
+
+// Linked list before duplicate removal  21 50 50 68 90 99
+// Linked list after duplicate removal  21 50 68 90 99
+
 #include <bits/stdc++.h>
 using namespace std;
 
