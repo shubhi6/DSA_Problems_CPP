@@ -1,3 +1,9 @@
+// Code to delete kth node of the circular linked list
+
+// EXAMPLE :
+// Before deletion: 1 2 3 4 5 
+// After deletion of 3th node: 1 2 4 5 
+
 #include <iostream>
 
 using namespace std;
