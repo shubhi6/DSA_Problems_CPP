@@ -1,3 +1,24 @@
+// A simple solution is to traverse the linked list until you find the node you want to delete.
+// But this solution requires a pointer to the head node which contradicts the problem statement. 
+
+// The fast solution is to copy the data from the next node to the node to be deleted and delete the next node. Something like this:
+
+// It is important to note that this approach will only work if it is guaranteed that the given pointer does not point to the last node.
+// Because if it is the last node, then you don’t have a next node to copy the data from.
+
+// struct Node *temp  = node_ptr->next;
+// node_ptr->data  = temp->data;
+// node_ptr->next  = temp->next;
+// free(temp);
+
+// EXAMPLE:
+
+// INPUT:  1 4 1 12 1 
+// OUTPUT: Before deleting 
+//       1 12 1 4 1 
+//       After deleting 
+//       12 1 4 1 
+
 #include <assert.h>
 #include <bits/stdc++.h>
 using namespace std;
