@@ -1,3 +1,19 @@
+// Method using Floyd’s Cycle detection algorithm :
+
+//* This method is also dependent on Floyd’s Cycle detection algorithm.
+//* Detect Loop using Floyd’s Cycle detection algorithm and get the pointer to a loop node.
+//* Count the number of nodes in the loop. Let the count be k.
+//* Fix one pointer to the head and another to a kth node from the head.
+//* Move both pointers at the same pace, they will meet at the loop starting node.
+//* Get a pointer to the last node of the loop and make the next of it NULL.
+
+// EXAMPLE:
+
+// INPUT : 15 20 50 4 10
+
+// OUTPUT: Linked List after removing loop 
+//          50 20 15 4 10 
+
 #include <bits/stdc++.h>
 using namespace std;
 
