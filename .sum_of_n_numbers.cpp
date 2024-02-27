@@ -1,4 +1,4 @@
-//Sum of n natural numbers.
+
 
 // EXAMPLE :
 
