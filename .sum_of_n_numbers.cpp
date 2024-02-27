@@ -11,5 +11,20 @@
 // OUTPUT: 21
 // EXPLANATION: 1 + 2 + 3 + 4 + 5 + 6 = 21
 
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i,n,sum;
+    cout<<"Enter the natural numbers" ;
+    cin>>n;
+    for (int i=1;i<=n;i++)
+        {
+            sum+=i;
+        }
+    cout<<sum<<"\n";
+    return 0;
+}
+
 
     
