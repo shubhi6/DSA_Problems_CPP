@@ -1,3 +1,14 @@
+// .......................Linked List implementation of Stack.................
+
+// EXAMPLE:
+
+// Output
+// 44 -> 33 -> 22 -> 11
+// Top element is 44
+// 22 -> 11
+// Top element is 22
+
+
 #include <iostream>
 #include <cstdlib>
 
