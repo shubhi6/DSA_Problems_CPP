@@ -1,5 +1,16 @@
-#include <bits/stdc++.h>
+//Below is the implementation of Stack using Array.
+//For that we basically need to basically design our own stack class and include stack functionalities like push, pop, peek etc.
 
+//EXAMPLE:
+// 10 pushed into stack
+// 20 pushed into stack
+// 30 pushed into stack
+// 30 Popped from stack
+// Top element is : 20
+// Elements present in stack : 20 10
+
+	
+#include <bits/stdc++.h>
 using namespace std;
 
 #define MAX 1000
