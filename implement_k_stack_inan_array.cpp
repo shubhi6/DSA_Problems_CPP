@@ -1,3 +1,5 @@
+//..............Implement K Stacks in an Array...........
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -84,3 +86,8 @@ int main() {
     return 0;
 }
 
+// Output:
+
+// Popped element from stack 2 is 45
+// Popped element from stack 1 is 39
+// Popped element from stack 0 is 7
