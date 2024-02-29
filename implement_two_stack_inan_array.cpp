@@ -1,3 +1,14 @@
+// Create a data structure twoStacks that represent two stacks.
+// Implementation of twoStacks should use only one array, i.e., both stacks should use the same array for storing elements. 
+
+// Following functions must be supported by twoStacks.
+
+// push1(int x) --> pushes x to first stack 
+// push2(int x) --> pushes x to second stack
+// pop1() --> pops an element from first stack and return the popped element 
+// pop2() --> pops an element from second stack and return the popped element
+// Implementation of twoStack should be space efficient.
+
 //............NAIVE METHOD...............
 
 #include <bits/stdc++.h>
@@ -84,6 +95,11 @@ int main()
     return 0; 
 }
 
+// Output
+// Stack Overflow By element : 7
+// Popped element from stack1 is : 11
+// Stack Overflow By element : 40
+// Popped element from stack2 is : 15
 
 //..............EFFICIENT METHOD.............
 
@@ -170,3 +186,6 @@ int main()
     return 0; 
 }
 
+// Output
+// Popped element from stack1 is 11
+// Popped element from stack2 is 40
