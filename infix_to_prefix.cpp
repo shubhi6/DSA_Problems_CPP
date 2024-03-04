@@ -1,3 +1,14 @@
+// To convert an infix to postfix expression refer to this article Infix to Postfix article. We use the same to convert Infix to Prefix.
+
+// Step 1: Reverse the infix expression i.e A+B*C will become C*B+A. Note while reversing each '(' will become ')' and each ')' becomes '('.
+// Step 2: Obtain the "nearly" postfix expression of the modified expression i.e CB*A+.
+// Step 3: Reverse the postfix expression. Hence in our example prefix is +A*BC.
+    
+// Note that for Step 2, we don't use the postfix algorithm as it is. There is a minor change in the algorithm. 
+//  We have to pop all the operators from the stack which are greater than or equal to in precedence than that of the scanned operator.
+// But here, we have to pop all the operators from the stack which are greater in precedence than that of the scanned operator.
+// Only in the case of "^" operator, we pop operators from the stack which are greater than or equal to in precedence.
+
 #include <bits/stdc++.h>
 using namespace std;
 
