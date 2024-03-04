@@ -13,6 +13,14 @@
 //         return it
 // Step 6: End
 
+// Examples:  
+
+// Input : -+8/632
+// Output : 8
+
+// Input : -+7*45+20
+// Output : 25
+
 #include <bits/stdc++.h>
 using namespace std;
 
