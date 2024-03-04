@@ -1,3 +1,12 @@
+// Evaluation of Postfix Expression Using Stack:
+// Follow the steps mentioned below to evaluate postfix expression using stack:
+
+// * Create a stack to store operands (or values). 
+// * Scan the given expression from left to right and do the following for every scanned element. 
+//   ->If the element is a number, push it into the stack 
+//   ->If the element is an operator, pop operands for the operator from the stack. Evaluate the operator and push the result back to the stack 
+// * When the expression is ended, the number in the stack is the final answer                                                                                                            
+
 #include <bits/stdc++.h>
 using namespace std;
 
