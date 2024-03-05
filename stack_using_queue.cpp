@@ -3,6 +3,18 @@
 
 //......................METHOD 1..................
 
+// Method 1 (By making push operation costly): This method makes sure that newly entered element is always at the front of 'q1',
+// so that pop operation just dequeues from 'q1'. The queue, 'q2' is used to put every new element at front of 'q1'.
+// push(s, x) // x is the element to be pushed and s is stack
+//   1) Enqueue x to q2
+//   2) One by one dequeue everything from q1 and enqueue to q2.
+//   3) Swap the names of q1 and q2 
+// Swapping of names is done to avoid one more  
+// movement of all elements from q2 to q1. 
+
+pop(s)
+  1) Dequeue an item from q1 and return it.
+
 #include<bits/stdc++.h>
 using namespace std;
 
