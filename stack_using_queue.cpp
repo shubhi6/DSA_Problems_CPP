@@ -166,4 +166,11 @@ int main()
     return 0;
 }
 
+// Output :
+// current size: 3
+// 3
+// 2
+// 1
+// current size: 1
+
 
