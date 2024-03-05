@@ -6,22 +6,6 @@
 
 //.....................METHOD 1...........
 
-// Method 1 (By making enQueue operation costly): This method makes sure that oldest entered element(element inserted first) is always at the top of stack1,
-// so that deQueue operation just pops from stack1. To put the element at top of stack1, stack2 is used. The idea is to while pushing an element,
-// first move all elements from stack1 to stack2, insert the new element to stack1 and then again move all elements from stack2 to stack1. 
-// Below is the implementation of both enQueue() and deQueue() operations:
-// enQueue(q, x)
-//   1) While stack1 is not empty, push everything from stack1 to stack2.
-//   2) Push x to stack1 (assuming size of stacks is unlimited).
-//   3) Push everything back to stack1.
-// Here the time complexity will be O(n)
-
-// deQueue(q)
-//   1) If stack1 is empty then print an error
-//   2) Pop an item from stack1 and return it
-// Here time complexity will be O(1)
-
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -71,6 +55,21 @@ int main()
 // 1
 // 2
 // 3
+
+// Method 1 (By making enQueue operation costly): This method makes sure that oldest entered element(element inserted first) is always at the top of stack1,
+// so that deQueue operation just pops from stack1. To put the element at top of stack1, stack2 is used. The idea is to while pushing an element,
+// first move all elements from stack1 to stack2, insert the new element to stack1 and then again move all elements from stack2 to stack1. 
+// Below is the implementation of both enQueue() and deQueue() operations:
+// enQueue(q, x)
+//   1) While stack1 is not empty, push everything from stack1 to stack2.
+//   2) Push x to stack1 (assuming size of stacks is unlimited).
+//   3) Push everything back to stack1.
+// Here the time complexity will be O(n)
+
+// deQueue(q)
+//   1) If stack1 is empty then print an error
+//   2) Pop an item from stack1 and return it
+// Here time complexity will be O(1)
 
 //...............METHOD 2.................
 
