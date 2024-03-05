@@ -1,3 +1,9 @@
+// Problem: Given a stack data structure with push and pop operations,
+// the task is to implement a queue using instances of stack data structure and operations on them.
+
+// Solution: A queue can be implemented using two stacks. Let the queue to be implemented be q and stacks used to implement q are stack1 and stack2 respectively.
+
+
 //.....................METHOD 1...........
 
 #include <bits/stdc++.h>
