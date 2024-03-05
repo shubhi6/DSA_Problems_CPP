@@ -116,5 +116,29 @@ int main()
     cout << q.deQueue() << '\n';
 
     return 0;
+
 }
+
+// Output:
+// 1 2 3 
+
+
+// Method 2 (By making deQueue operation costly): In this method, in en-queue operation, the new element is entered at the top of stack1.
+// In de-queue operation, if stack2 is empty then all the elements are moved to stack2 and finally, the top of stack2 is returned.
+// Below is the implementation of both enQueue() and deQueue() operations:
+
+// enQueue(q,  x)
+//   1) Push x to stack1 (assuming size of stacks is unlimited).
+// Here time complexity will be O(1)
+
+// deQueue(q)
+//   1) If both stacks are empty then error.
+//   2) If stack2 is empty
+//        While stack1 is not empty, push everything from stack1 to stack2.
+//   3) Pop the element from stack2 and return it.
+// Here time complexity will be O(n)
+
+
+    
+
 
