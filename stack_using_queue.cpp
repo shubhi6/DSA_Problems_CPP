@@ -1,3 +1,6 @@
+// Problem: Given a Queue data structure that supports standard operations like enqueue() and dequeue().
+// We need to implement a Stack data structure using only instances of Queue and queue operations allowed on the instances.
+
 //......................METHOD 1..................
 
 #include<bits/stdc++.h>
@@ -65,6 +68,14 @@ int main()
     cout << "current size: " << s.size() << endl;
     return 0;
 }
+
+
+// Output :
+// current size: 3
+// 3
+// 2
+// 1
+// current size: 1
 
 
 //...................METHOD 2....................
