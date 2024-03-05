@@ -92,6 +92,22 @@ int main()
 
 //...................METHOD 2....................
 
+// Method 2 (By making pop operation costly): In push operation, the new element is always enqueued to q1. 
+// In pop() operation, if q2 is empty then all the elements except the last, are moved to q2. Finally the last element is dequeued from q1 and returned.
+
+//   push(s,  x)
+//   1) Enqueue x to q1 (assuming size of q1 is unlimited).
+
+// pop(s)  
+//   1) One by one dequeue everything except the last element 
+//      from q1 and enqueue to q2.
+//   2) Dequeue the last item of q1, the dequeued item 
+//      is the result, store it.
+//   3) Swap the names of q1 and q2
+//   4) Return the item stored in step 2.
+// Swapping of names is done to avoid one more
+// movement of all elements from q2 to q1.
+
 #include<bits/stdc++.h>
 using namespace std;
 
