@@ -11,10 +11,10 @@ Mainly the following four basic operations are performed on queue:
     
 In addition to above operations, following operations are also supported 
 
-getFront(): Gets the front item from queue. 
-getRear(): Gets the last item from queue. 
-isEmpty(): Checks whether Deque is empty or not. 
-isFull(): Checks whether Deque is full or not. 
+* getFront(): Gets the front item from queue. 
+* getRear(): Gets the last item from queue. 
+* isEmpty(): Checks whether Deque is empty or not. 
+* isFull(): Checks whether Deque is full or not. 
 
 #include <iostream>
 using namespace std;
