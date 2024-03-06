@@ -155,11 +155,11 @@ int main() {
     return 0;
 }
 
-Output
-Insert element at rear end  : 5 
-insert element at rear end : 10 
-get rear element  10
-After delete rear element new rear become 5
-inserting element at front end 
-get front element  15
-After delete front element new front become 5
+// Output
+// Insert element at rear end  : 5 
+// insert element at rear end : 10 
+// get rear element  10
+// After delete rear element new rear become 5
+// inserting element at front end 
+// get front element  15
+// After delete front element new front become 5
