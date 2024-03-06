@@ -1,12 +1,13 @@
 Deque or Double Ended Queue is a generalized version of the Queue data structure that allows insert and delete at both ends
 
 Operations on Deque: 
+
 Mainly the following four basic operations are performed on queue: 
 
-insertFront(): Adds an item at the front of Deque.
-insertRear(): Adds an item at the rear of Deque. 
-deleteFront(): Deletes an item from front of Deque. 
-deleteRear(): Deletes an item from rear of Deque.
+* insertFront(): Adds an item at the front of Deque.
+* insertRear(): Adds an item at the rear of Deque. 
+* deleteFront(): Deletes an item from front of Deque. 
+* deleteRear(): Deletes an item from rear of Deque.
 In addition to above operations, following operations are also supported 
 
 getFront(): Gets the front item from queue. 
