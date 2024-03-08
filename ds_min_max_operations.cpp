@@ -1,4 +1,5 @@
-// Problem: Design a Data Structure a SpecialQueue which supports following operations enqueue, deque, getMin() or getMax() where getMin() operation takes O(1) time.
+// Problem: Design a Data Structure a SpecialQueue which supports following operations enqueue, deque, getMin() 
+//or getMax() where getMin() operation takes O(1) time.
 // Example: 
  
 
