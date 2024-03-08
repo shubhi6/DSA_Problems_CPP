@@ -71,3 +71,6 @@ int main() {
     cout << k.getMin() << "\n";
 }
 
+// Output: 
+// 1
+// 2
