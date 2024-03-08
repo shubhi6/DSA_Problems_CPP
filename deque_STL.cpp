@@ -40,15 +40,15 @@ int main()
 }
 
 
-Output
-The deque gquiz is : 	15	20	10	30
+// Output
+// The deque gquiz is : 	15	20	10	30
 
-gquiz.size() : 4
-gquiz.max_size() : 4611686018427387903
-gquiz.at(2) : 10
-gquiz.front() : 15
-gquiz.back() : 30
-gquiz.pop_front() : 	20	10	30
+// gquiz.size() : 4
+// gquiz.max_size() : 4611686018427387903
+// gquiz.at(2) : 10
+// gquiz.front() : 15
+// gquiz.back() : 30
+// gquiz.pop_front() : 	20	10	30
 
 gquiz.pop_back() : 	20	10
  
