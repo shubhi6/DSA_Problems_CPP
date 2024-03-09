@@ -81,4 +81,5 @@ int main()
     printKMax(arr, N, K);
     return 0;
 }
-
+// Output
+// 78 90 90 90 89
