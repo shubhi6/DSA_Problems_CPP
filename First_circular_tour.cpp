@@ -1,5 +1,14 @@
 //...................First Circular Tour................
 
+// Examples:
+
+// Input: arr[] = {{4, 6}, {6, 5}, {7, 3}, {4, 5}}. 
+// Output: 1
+// Explanation: If started from 1st index then a circular tour can be covered.
+
+// Input: arr[] {{6, 4}, {3, 6}, {7, 3}}
+// Output: 2
+
 //..........NAIVE APPROACH..........
 
 #include <bits/stdc++.h>
