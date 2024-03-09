@@ -45,6 +45,8 @@ int main() {
     return 0;
 }
 
+// Output
+// Start = 2
 
 //............EFFICIENT WAY..........
 
