@@ -1,15 +1,15 @@
-Sum of n natural numbers.
+// Sum of n natural numbers.
 
-EXAMPLE :
+// EXAMPLE :
 
-INPUT: 5
-OUTPUT: 15
-EXPLANATION: 1 + 2 + 3 + 4 + 5 = 15
+// INPUT: 5
+// OUTPUT: 15
+// EXPLANATION: 1 + 2 + 3 + 4 + 5 = 15
 
 
-INPUT: 6
-OUTPUT: 21
-EXPLANATION: 1 + 2 + 3 + 4 + 5 + 6 = 21
+// INPUT: 6
+// OUTPUT: 21
+// EXPLANATION: 1 + 2 + 3 + 4 + 5 + 6 = 21
 
 #include<iostream>
 using namespace std;
