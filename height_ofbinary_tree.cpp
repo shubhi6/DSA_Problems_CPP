@@ -43,3 +43,5 @@ int main() {
 	return 0;
 }
 
+// Output
+// Height of tree is 3
