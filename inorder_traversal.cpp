@@ -1,3 +1,9 @@
+// Inorder Traversal
+// Algorithm Inorder(tree)
+// Traverse the left subtree, i.e., call Inorder(left->subtree)
+// Visit the root.
+// Traverse the right subtree, i.e., call Inorder(right->subtree)
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -37,3 +43,5 @@ int main()
 	return 0;
 }
 
+// OUTPUT : Inorder traversal of binary tree is 
+// 4 2 5 1 3 
