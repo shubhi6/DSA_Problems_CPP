@@ -1,3 +1,8 @@
+// ........................................Height of Binary Tree......................................
+
+// Given a binary tree, the task is to find the height of the tree.
+// Height of the tree is the number of edges in the tree from the root to the deepest node, Height of the empty tree is 0.
+
 #include <bits/stdc++.h>
 using namespace std;
 
