@@ -1,8 +1,8 @@
 //................ Inorder Traversal.........
 // Algorithm Inorder(tree)
-// Traverse the left subtree, i.e., call Inorder(left->subtree)
-// Visit the root.
-// Traverse the right subtree, i.e., call Inorder(right->subtree)
+// 1. Traverse the left subtree, i.e., call Inorder(left->subtree)
+// 2. Visit the root.
+// 3. Traverse the right subtree, i.e., call Inorder(right->subtree)
 
 #include <bits/stdc++.h>
 using namespace std;
