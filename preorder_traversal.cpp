@@ -44,3 +44,7 @@ int main()
     return 0;
 }
 
+// Output
+
+// Preorder traversal of binary tree is 
+// 1 2 4 5 3 
