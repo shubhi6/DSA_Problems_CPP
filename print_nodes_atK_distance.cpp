@@ -54,3 +54,5 @@ int main()
 	return 0;
 }
 
+// Output
+// 4 5 8 
