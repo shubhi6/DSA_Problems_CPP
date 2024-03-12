@@ -5,7 +5,17 @@
 //set(key, value) – Set or insert the value if the key is not already present. When the cache reached its capacity, it should invalidate the least recently used item before inserting a new item.
 //Examples:
 
-
+//Let's say we have a LRU cache of capacity 2.
+//LRUCache cache = new LRUCache(2);
+//cache.set(1, 10); // it will store a key (1) with value 10 in the cache.
+//cache.set(2, 20); // it will store a key (2) with value 20 in the cache.
+//cache.get(1); // returns 10
+//cache.set(3, 30); // evicts key 2 and store a key (3) with value 30 in the cache.
+//cache.get(2); // returns -1 (not found)
+//cache.set(4, 40); // evicts key 1 and store a key (4) with value 40 in the cache.
+//cache.get(1); // returns -1 (not found)
+//cache.get(3); // returns 30
+//cache.get(4); // returns 40
 
 
 
