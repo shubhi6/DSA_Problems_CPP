@@ -1,3 +1,10 @@
+// ........................Level Order Traversal of a Binary Tree.............................
+
+// We have seen the three basic traversals(Preorder, postorder, and Inorder) of a Binary Tree. 
+// We can also traverse a Binary Tree using the Level Order Traversal.
+
+// In the Level Order Traversal, the binary tree is traversed level-wise starting from the first to last level sequentially.
+
 #include <iostream>
 #include <queue>
 
@@ -46,4 +53,7 @@ int main() {
     printLevelOrder(root);
     return 0;
 }
+
+// Output:
+// 1 2 3 4 5
 
