@@ -1,3 +1,13 @@
+//................Maximum in Binary Tree...............
+
+// In Binary Search Tree, we can find maximum by traversing right pointers until we reach the rightmost node.
+// But in Binary Tree, we must visit every node to figure out maximum.
+// So the idea is to traverse the given tree and for every node return maximum of 3 values. 
+
+// 1. Node’s data.
+// 2. Maximum in node’s left subtree.
+// 3. Maximum in node’s right subtree.
+
 #include <bits/stdc++.h>
 #include <iostream>
 using namespace std;
@@ -44,3 +54,6 @@ int main() {
     return 0;
 }
 
+// Output
+
+// Maximum element is 11
