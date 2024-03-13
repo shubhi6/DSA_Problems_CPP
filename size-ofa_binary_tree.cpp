@@ -49,3 +49,5 @@ int main() {
     return 0;
 }
 
+// Output:  
+// Size of the tree is 5
