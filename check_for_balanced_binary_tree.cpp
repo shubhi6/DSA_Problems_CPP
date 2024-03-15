@@ -46,6 +46,8 @@ int main() {
     return 0;
 }
 
+// Output
+// Tree is not balanced
 
 //.......................EFFICIENT APPROACH............
 
