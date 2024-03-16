@@ -55,6 +55,9 @@ int main() {
     return 0;
 }
 
+// Output:
+// Diameter of the given binary tree is 4
+
 //..................EFFICIENT SOLUTION................
 
 #include <bits/stdc++.h>
