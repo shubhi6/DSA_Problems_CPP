@@ -1,25 +1,25 @@
-......................Construct Binary Tree from Inorder and Preorder.................
+// ......................Construct Binary Tree from Inorder and Preorder.................
 
-Let us consider the below traversals:
+// Let us consider the below traversals:
 
-Inorder sequence: D B E A F C 
-Preorder sequence: A B D E C F
-subtree and elements on right in the right subtree. So we know the below structure now. 
+// Inorder sequence: D B E A F C 
+// Preorder sequence: A B D E C F
+// subtree and elements on right in the right subtree. So we know the below structure now. 
 
-                 A
-               /   \
-             /       \
-           D B E     F C
-We recursively follow the above steps and get the following tree.
+//                  A
+//                /   \
+//              /       \
+//            D B E     F C
+// We recursively follow the above steps and get the following tree.
 
-         A
-       /   \
-     /       \
-    B         C
-   / \        /
- /     \    /
-D       E  F
-Algorithm: 
+//          A
+//        /   \
+//      /       \
+//     B         C
+//    / \        /
+//  /     \    /
+// D       E  F
+// Algorithm: 
 
 1. Pick an element from Preorder. Increment a Preorder Index Variable (preIndex in below code) to pick the next element in the next recursive call. 
 2. Create a new tree node tNode with the data as the picked element. 
