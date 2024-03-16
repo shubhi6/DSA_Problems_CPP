@@ -85,7 +85,6 @@ int main() {
 	printInorder(root);
 }
 
-Output
-
-Inorder traversal of the constructed tree is 
-D B E A F C 
+// Output
+// Inorder traversal of the constructed tree is 
+// D B E A F C 
