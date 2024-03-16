@@ -1,3 +1,33 @@
+......................Construct Binary Tree from Inorder and Preorder.................
+
+Let us consider the below traversals:
+
+Inorder sequence: D B E A F C 
+Preorder sequence: A B D E C F
+subtree and elements on right in the right subtree. So we know the below structure now. 
+
+                 A
+               /   \
+             /       \
+           D B E     F C
+We recursively follow the above steps and get the following tree.
+
+         A
+       /   \
+     /       \
+    B         C
+   / \        /
+ /     \    /
+D       E  F
+Algorithm: 
+
+1. Pick an element from Preorder. Increment a Preorder Index Variable (preIndex in below code) to pick the next element in the next recursive call. 
+2. Create a new tree node tNode with the data as the picked element. 
+3. Find the picked element’s index in Inorder. Let the index be inIndex. 
+4. Call buildTree for elements before inIndex and make the built tree as a left subtree of tNode. 
+5. Call buildTree for elements after inIndex and make the built tree as a right subtree of tNode. 
+6. return tNode.
+
 #include <bits/stdc++.h>
 #include<unordered_map>
 using namespace std;
@@ -53,3 +83,7 @@ int main() {
 	printInorder(root);
 }
 
+Output
+
+Inorder traversal of the constructed tree is 
+D B E A F C 
