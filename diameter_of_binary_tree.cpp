@@ -109,3 +109,6 @@ int main() {
     return 0;
 }
 
+
+// Output
+// Diameter of the given binary tree is 4
