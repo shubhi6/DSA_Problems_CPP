@@ -1,3 +1,8 @@
+........................Tree Traversal in Spiral Form........................
+
+Write a function to print spiral order traversal of a tree. For below tree, function should print 1, 2, 3, 4, 5, 6, 7. 
+ 
+
 //........................METHOD - 1 : (Recursive) 
 
 #include<bits/stdc++.h>
