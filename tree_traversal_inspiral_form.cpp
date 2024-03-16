@@ -1,6 +1,6 @@
-........................Tree Traversal in Spiral Form........................
+// ........................Tree Traversal in Spiral Form........................
 
-Write a function to print spiral order traversal of a tree. For below tree, function should print 1, 2, 3, 4, 5, 6, 7. 
+// Write a function to print spiral order traversal of a tree. For below tree, function should print 1, 2, 3, 4, 5, 6, 7. 
  
 
 //........................METHOD - 1 : (Recursive) 
@@ -79,9 +79,9 @@ int main() {
     return 0;
 }
 
-Output
-Spiral Order Traversal Of The Tree Is :
-1  2  3  4  5  6  7  
+// Output
+// Spiral Order Traversal Of The Tree Is :
+// 1  2  3  4  5  6  7  
 
 //..............METHOD - 2 : (Iterative)................. 
 
@@ -152,8 +152,8 @@ int main()
     printSpiral(root);
 
     return 0;
-}
+// }
 
-Output
-Spiral Order Traversal Of The Tree Is :
-1  2  3  4  5  6  7  
+// Output
+// Spiral Order Traversal Of The Tree Is :
+// 1  2  3  4  5  6  7  
