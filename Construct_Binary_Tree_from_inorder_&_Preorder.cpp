@@ -19,14 +19,16 @@
 //    / \        /
 //  /     \    /
 // D       E  F
+
+
 // Algorithm: 
 
-1. Pick an element from Preorder. Increment a Preorder Index Variable (preIndex in below code) to pick the next element in the next recursive call. 
-2. Create a new tree node tNode with the data as the picked element. 
-3. Find the picked element’s index in Inorder. Let the index be inIndex. 
-4. Call buildTree for elements before inIndex and make the built tree as a left subtree of tNode. 
-5. Call buildTree for elements after inIndex and make the built tree as a right subtree of tNode. 
-6. return tNode.
+// 1. Pick an element from Preorder. Increment a Preorder Index Variable (preIndex in below code) to pick the next element in the next recursive call. 
+// 2. Create a new tree node tNode with the data as the picked element. 
+// 3. Find the picked element’s index in Inorder. Let the index be inIndex. 
+// 4. Call buildTree for elements before inIndex and make the built tree as a left subtree of tNode. 
+// 5. Call buildTree for elements after inIndex and make the built tree as a right subtree of tNode. 
+// 6. return tNode.
 
 #include <bits/stdc++.h>
 #include<unordered_map>
