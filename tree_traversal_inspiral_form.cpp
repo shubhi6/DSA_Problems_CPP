@@ -79,6 +79,9 @@ int main() {
     return 0;
 }
 
+Output
+Spiral Order Traversal Of The Tree Is :
+1  2  3  4  5  6  7  
 
 //..............METHOD - 2 : (Iterative)................. 
 
@@ -151,3 +154,6 @@ int main()
     return 0;
 }
 
+Output
+Spiral Order Traversal Of The Tree Is :
+1  2  3  4  5  6  7  
