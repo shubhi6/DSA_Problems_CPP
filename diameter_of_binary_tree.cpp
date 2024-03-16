@@ -103,8 +103,9 @@ int main() {
     root->left->right = newNode(5);
 
     int height = 0;
+    
+	cout << "Diameter of the given binary tree is "<< diameterOpt(root, &height);
 
-    cout << diameterOpt(root, &height);
 
     return 0;
 }
