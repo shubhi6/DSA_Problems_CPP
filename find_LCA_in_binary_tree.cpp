@@ -1,3 +1,13 @@
+// ..............................Finding LCA in Binary Tree..............................
+
+// Given a Binary Tree and the value of two nodes n1 and n2. The task is to find the lowest common ancestor of the nodes n1 and n2 in the given Binary Tree.
+
+  //             1
+  //        /         \
+  //       2           3
+  //   /       \    /      \
+  // 4           5 6         7     
+
 //........................NAIVE SOLUTION.................
 
 #include <iostream>
@@ -57,6 +67,12 @@ int main() {
     return 0;
 }
 
+// Output:
+// LCA(4, 5) = 2
+// LCA(4, 6) = 1
+// LCA(3, 4) = 1
+// LCA(2, 4) = 2
+
 
 //..................EFFICIENT SOLUTION.....................
 
@@ -107,4 +123,12 @@ int main() {
 
     return 0;
 }
+
+
+
+// Output:
+// LCA(4, 5) = 2
+// LCA(4, 6) = 1
+// LCA(3, 4) = 1
+// LCA(2, 4) = 2
 
