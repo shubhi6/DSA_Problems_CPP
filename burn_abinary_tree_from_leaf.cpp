@@ -5,12 +5,12 @@
 // Then all the nodes which are connected through one intermediate get burned in 2 seconds, and so on.
 // The task is to find the minimum time required to burn the complete binary tree.
 
-Approach: The idea is to store additional information for every node: 
+// Approach: The idea is to store additional information for every node: 
 
-1. Depth of left subtree.
-2. Depth of right subtree.
-3. The time required for the fire to reach the current node starting from the first leaf node burned.
-4. A boolean variable to check if the initial burnt node is in the tree rooted under current node.
+// 1. Depth of left subtree.
+// 2. Depth of right subtree.
+// 3. The time required for the fire to reach the current node starting from the first leaf node burned.
+// 4. A boolean variable to check if the initial burnt node is in the tree rooted under current node.
 
 
 #include <bits/stdc++.h>
