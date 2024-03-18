@@ -1,3 +1,10 @@
+// Burn a Binary Tree From a Leaf
+
+// Given a binary tree and a leaf node from this tree.
+// It is known that in 1s all nodes connected to a given node (left child, right child, and parent) get burned in 1 second.
+// Then all the nodes which are connected through one intermediate get burned in 2 seconds, and so on.
+// The task is to find the minimum time required to burn the complete binary tree.
+
 #include <bits/stdc++.h>
 using namespace std;
 
