@@ -1,4 +1,4 @@
-// Burn a Binary Tree From a Leaf
+//................. Burn a Binary Tree From a Leaf.............................
 
 // Given a binary tree and a leaf node from this tree.
 // It is known that in 1s all nodes connected to a given node (left child, right child, and parent) get burned in 1 second.
