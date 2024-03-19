@@ -56,4 +56,7 @@ int main() {
     iterativePreorder(root);
     return 0;
 }
+ 
+// Output: 
+// 10 8 3 5 2 2
 
