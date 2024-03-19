@@ -1,3 +1,15 @@
+// ........................Iterative Preorder Traversal...................
+
+// Given a Binary Tree, write an iterative function to print the Preorder traversal of the given binary tree.
+// To convert an inherently recursive procedure to iterative, we need an explicit stack. 
+// Following is a simple stack based iterative process to print Preorder traversal. 
+// 1) Create an empty stack nodeStack and push root node to stack. 
+// 2) Do the following while nodeStack is not empty. 
+// a) Pop an item from the stack and print it. 
+// b) Push right child of a popped item to stack 
+// c) Push left child of a popped item to stack
+// The right child is pushed before the left child to make sure that the left subtree is processed first.
+
 #include <bits/stdc++.h>
 using namespace std;
 
