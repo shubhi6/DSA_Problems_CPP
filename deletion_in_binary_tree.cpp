@@ -112,3 +112,7 @@ int main()
     return 0; 
 }  
 
+
+// Output:
+// Inorder traversal before Deletion: 7 11 12 10 15 9 8 
+// Inorder traversal after Deletion: 7 8 12 10 15 9
