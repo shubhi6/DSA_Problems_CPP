@@ -1,3 +1,7 @@
+//............... Deletion in a Binary Tree.......................
+
+// Problem: Given a Binary Tree and a node to be deleted from this tree. The task is to delete the given node from it.
+
 #include <bits/stdc++.h> 
 using namespace std; 
 
