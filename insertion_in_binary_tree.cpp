@@ -74,3 +74,8 @@ int main()
     return 0; 
 }
 
+
+// Output
+
+// Inorder traversal before insertion: 7 11 10 15 9 8 
+// Inorder traversal after insertion: 7 11 12 10 15 9 8 
