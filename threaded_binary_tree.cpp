@@ -1,8 +1,8 @@
-..................Threaded Binary Tree..................
+// ..................Threaded Binary Tree..................
 
-    The Inorder traversal of a Binary tree can either be done using recursion or with the use of an auxiliary stack.
-    Threaded Binary Trees are used to make the inorder traversal faster and do it without stack and without recursion.
-    A binary tree is made threaded by making all right child pointers that would normally be NULL point to the inorder successor of the node (if it exists).
+//     The Inorder traversal of a Binary tree can either be done using recursion or with the use of an auxiliary stack.
+//     Threaded Binary Trees are used to make the inorder traversal faster and do it without stack and without recursion.
+//     A binary tree is made threaded by making all right child pointers that would normally be NULL point to the inorder successor of the node (if it exists).
 
 // There are two types of threaded binary trees:
 
