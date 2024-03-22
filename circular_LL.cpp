@@ -1,8 +1,5 @@
 //...............Circular Linked Lists.........
 
-//A circular linked list is a linked list where all nodes are connected to form a circle.
-//There is no NULL at the end.
-//A circular linked list can be a singly circular linked list or doubly circular linked list.
  
  #include<bits/stdc++.h> 
 using namespace std; 
@@ -72,7 +69,7 @@ int main()
 //We just need to stop when the first visited node is visited again. 
 
 //2. Useful for implementation of a queue.
-//Unlike this implementation, we don’t need to maintain two pointers for front and rear if we use a circular linked list.
+//Unlike this implementation, we donâ€™t need to maintain two pointers for front and rear if we use a circular linked list.
 //We can maintain a pointer to the last inserted node and the front can always be obtained as the next of last.
 
 //3. Circular lists are useful in applications to repeatedly go around the list.
