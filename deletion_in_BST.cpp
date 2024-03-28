@@ -91,15 +91,23 @@ int main()
     root = insert(root, 60);
     root = insert(root, 80);
 
+   
+    cout<<"Inorder traversal of the given tree \n";
     inorder(root);
 
+    cout<<"\nDelete 20\n";
     root = deleteNode(root, 20);
+    cout<<"Inorder traversal of the modified tree \n";
     inorder(root);
 
+    cout<<"\nDelete 30\n";
     root = deleteNode(root, 30);
+    cout<<"Inorder traversal of the modified tree \n";
     inorder(root);
 
-    root = deleteNode(root, 50); 
+    cout<<"\nDelete 50\n";
+    root = deleteNode(root, 50);
+    cout<<"Inorder traversal of the modified tree \n";
     inorder(root);
 
     return 0;
