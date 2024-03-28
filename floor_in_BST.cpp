@@ -1,4 +1,24 @@
+//....................... Floor in BST........................
 
+// Given a Binary Search Tree and a number x, find floor of x in the given BST.
+
+// Input : x = 14 and root of below tree
+//             10
+//            /  \
+//           5    15
+//               /  \
+//             12    30
+// Output : 12
+
+// Input : x = 15 and root of below tree
+//             10
+//            /  \
+//           5    15
+//               /  \
+//             12    30
+// Output : 15    
+
+    
     /* Let us create following BST
               7
             /    \
