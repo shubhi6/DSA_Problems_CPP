@@ -68,6 +68,30 @@ int main()
 
     return 0; 
 } 
+
+Output
+0 2
+1 2
+2 2
+3 4
+4 4
+5 6
+6 6
+7 8
+8 8
+9 10
+10 10
+11 12
+12 12
+13 14
+14 14
+15 -1
+Time complexity: O(logn) 
+
+Auxiliary Space: O(logn) 
+
+
+
 Algorithm:  
 
 Imagine we are moving down the tree, and assume we are root node. 
