@@ -1,4 +1,4 @@
-Find Kth Smallest in BST
+//Find Kth Smallest in BST
 
 #include <iostream>
 using namespace std;
@@ -56,5 +56,5 @@ int main()
     return 0;
 }
 
-Output
-K-th Smallest Element is 12
+// Output
+// K-th Smallest Element is 12
