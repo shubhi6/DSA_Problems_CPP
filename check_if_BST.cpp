@@ -61,6 +61,5 @@ int main()
     return 0; 
 }
 
-Output:  
-
-Not a BST
+// Output:  
+// Not a BST
