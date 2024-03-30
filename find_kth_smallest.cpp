@@ -44,7 +44,7 @@ int main()
 {
     Node* root = NULL;
     int keys[] = { 20, 8, 22, 4, 12, 10, 14 };
-    int size = sizeof(keys) / sizeof(keys[0]); // Calculate the size of the keys array
+    int size = sizeof(keys) / sizeof(keys[0]); 
     for (int i = 0; i < size; ++i)
         root = insert(root, keys[i]);
     int k = 4;
