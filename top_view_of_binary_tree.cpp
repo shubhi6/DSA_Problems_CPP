@@ -64,3 +64,7 @@ int main()
     return 0;
 }
 
+// Output
+// The top view of the tree is : 
+// 2 1 3 6 
+
