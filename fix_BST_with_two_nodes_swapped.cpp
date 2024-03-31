@@ -105,3 +105,10 @@ int main()
     return 0;
 }
 
+// Output: 
+
+// Inorder Traversal of the original tree
+// 1 10 3 6 7 2 12
+// Inorder Traversal of the fixed tree
+// 1 2 3 6 7 10 12
+
