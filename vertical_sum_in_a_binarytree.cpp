@@ -79,3 +79,12 @@ int main()
     return 0;
 }
 
+
+// Output
+// Following are the values of vertical sums with the positions of the columns with respect to root
+// -2: 4
+// -1: 2
+// 0: 12
+// 1: 11
+// 2: 7
+// 3: 9
