@@ -115,3 +115,5 @@ int main()
     tree->isPairPresent(tree->root, 33);
 }
 
+// Output :  
+// Pair Found: 8 + 25 = 33
