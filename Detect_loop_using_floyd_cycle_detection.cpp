@@ -1,4 +1,8 @@
+// Detect loop in a linked list using Floyd’s Cycle-Finding Algorithm:
+// This algorithm is used to find a loop in a linked list. It uses two pointers one moving twice as fast as the other one.
+// The faster one is called the faster pointer and the other one is called the slow pointer.
 
+// Follow the steps below to solve the problem:
 
 // * Traverse linked list using two pointers.
 // * Move one pointer(slow_p) by one and another pointer(fast_p) by two.
