@@ -135,3 +135,6 @@ int main()
 	return 0;
 }
 
+Output:
+
+2 4 1
