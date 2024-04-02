@@ -1,4 +1,4 @@
-Operations of Heap Data Structure
+..........Operations of Heap Data Structure...................
 
 Operations on Min Heap:
 1) getMini(): It returns the root element of Min Heap. Time Complexity of this operation is O(1).
