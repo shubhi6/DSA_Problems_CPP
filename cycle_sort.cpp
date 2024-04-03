@@ -1,7 +1,6 @@
 // Cycle sort is an in-place sorting Algorithm, unstable sorting algorithm, 
 // and a comparison sort that is theoretically optimal in terms of the total number of writes to the original array. 
  
-
 // It is optimal in terms of the number of memory writes. It minimizes the number of memory writes to sort 
 // (Each value is either written zero times if it’s already in its correct position or written one time to its correct position.)
 // It is based on the idea that the array to be sorted can be divided into cycles. Cycles can be visualized as a graph.
