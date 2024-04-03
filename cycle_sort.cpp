@@ -6,8 +6,8 @@
 // (Each value is either written zero times if it’s already in its correct position or written one time to its correct position.)
 // It is based on the idea that the array to be sorted can be divided into cycles. Cycles can be visualized as a graph.
 //  We have n nodes and an edge directed from node i to node j if the element at i-th index must be present at j-th index in the sorted array. 
-EXAMPLE :
-// Cycle in arr[] = {2, 4, 5, 1, 3} 
+//  EXAMPLE :
+//  Cycle in arr[] = {2, 4, 5, 1, 3} 
 //  Cycle in arr[] = {4, 3, 2, 1}
 
 #include <iostream>
