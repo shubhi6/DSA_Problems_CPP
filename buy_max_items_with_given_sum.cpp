@@ -44,4 +44,11 @@ int main()
 
     return 0;
 }
+ 
+
+// Output: 
+// 4
+// Time Complexity: O(N*logN)
+// Auxiliary Space: O(N)
+
 
