@@ -41,8 +41,8 @@ int main()
 }
 
 
-Output
-Following is sorted array
-2 3 6 8 12 56 
-Time Complexity: O(k) + O((m) * log(k)) ,  where m = n - k
-Auxiliary Space: O(k)
+// Output
+// Following is sorted array
+// 2 3 6 8 12 56 
+// Time Complexity: O(k) + O((m) * log(k)) ,  where m = n - k
+// Auxiliary Space: O(k)
