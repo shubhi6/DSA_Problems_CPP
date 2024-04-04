@@ -1,4 +1,5 @@
 //...............Implementing Heaps using inbuilt classes in C++...........
+
 #include <iostream> 
 #include <queue> 
 
@@ -35,3 +36,9 @@ int main ()
     return 0; 
 }
 
+// Output:
+// Element at top of Max Heap at every step:
+// 30 20 10 5 1 
+
+// Element at top of Min Heap at every step:
+// 1 5 10 20 30
