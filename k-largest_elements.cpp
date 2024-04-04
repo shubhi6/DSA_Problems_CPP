@@ -29,16 +29,16 @@ int main()
 // 50 30 23 
 
 
-Method 2 (Use Max Heap) 
-1) Build a Max Heap tree in O(n) 
-2) Use Extract Max k times to get k maximum elements from the Max Heap O(k*log(n))
+// Method 2 (Use Max Heap) 
+// 1) Build a Max Heap tree in O(n) 
+// 2) Use Extract Max k times to get k maximum elements from the Max Heap O(k*log(n))
 
-Time complexity: O(n + k*log(n)) 
+// Time complexity: O(n + k*log(n)) 
 
-Method 3 (Use Min Heap) 
-Using Min Heap.
-Time Complexity: O(nlogn)
-Auxiliary Space: O(n)
+// Method 3 (Use Min Heap) 
+// Using Min Heap.
+// Time Complexity: O(nlogn)
+// Auxiliary Space: O(n)
  
 #include <bits/stdc++.h>
 using namespace std;
