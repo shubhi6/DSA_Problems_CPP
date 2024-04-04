@@ -1,10 +1,10 @@
 //........................K Largest Elements...............
 
-Method 1(Use Sorting) 
-1) Sort the elements in descending order in O(n*log(n)) 
-2) Print the first k numbers of the sorted array O(k). 
-Time complexity: O(n*log(n))
-Auxiliary Space: O(1)
+// Method 1(Use Sorting) 
+// 1) Sort the elements in descending order in O(n*log(n)) 
+// 2) Print the first k numbers of the sorted array O(k). 
+// Time complexity: O(n*log(n))
+// Auxiliary Space: O(1)
     
 #include <bits/stdc++.h>
 using namespace std;
