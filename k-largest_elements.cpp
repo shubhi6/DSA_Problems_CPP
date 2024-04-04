@@ -59,4 +59,5 @@ int main()
     firstKElements(arr, size, k);
     return 0;
 }
-
+// Output
+// 50 88 96 
