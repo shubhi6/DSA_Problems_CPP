@@ -51,3 +51,6 @@ int main()
     return 0 ;
 }
 
+// Output: 
+// 39 30 42 45
+
