@@ -54,3 +54,6 @@ int main()
     return 0;
 }
 
+// Output
+// Merged array is 
+// 1 2 6 9 12 23 34 90 2000 
