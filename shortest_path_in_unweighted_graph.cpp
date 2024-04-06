@@ -1,16 +1,16 @@
-...........Shortest path in an Unweighted graph............................
+// ...........Shortest path in an Unweighted graph............................
 
-Given an unweighted graph, a source, and a destination, we need to find the shortest path from source to destination in the graph in the most optimal way.
+// Given an unweighted graph, a source, and a destination, we need to find the shortest path from source to destination in the graph in the most optimal way.
 
-Input: source vertex = 0 and destination vertex is = 7.
-Output: Shortest path length is:2
-        Path is::
-        0 3 7
+// Input: source vertex = 0 and destination vertex is = 7.
+// Output: Shortest path length is:2
+//         Path is::
+//         0 3 7
 
-Input: source vertex is = 2 and destination vertex is = 6.
-Output: Shortest path length is:5
-        Path is::
-        2 1 0 3 4 6
+// Input: source vertex is = 2 and destination vertex is = 6.
+// Output: Shortest path length is:5
+//         Path is::
+//         2 1 0 3 4 6
  
 
 #include <bits/stdc++.h>
