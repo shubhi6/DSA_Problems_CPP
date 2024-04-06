@@ -59,3 +59,7 @@ int main()
 
     return 0;
 }
+
+// Output:
+// Following is Depth First Traversal (starting from vertex 2)
+// 2 0 1 3
