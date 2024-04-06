@@ -1,4 +1,4 @@
-Introduction to Graphs
+................Introduction to Graphs........................
 
 A Graph is a data structure that consists of the following two components:
 A finite set of vertices also called nodes.
@@ -44,6 +44,8 @@ int main()
     printGraph(adj, V);
     return 0;
 }
+
+OUTPUT:
 
  Adjacency list of vertex 0
  head -> 1-> 4
