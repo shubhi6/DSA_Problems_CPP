@@ -81,3 +81,7 @@ int main()
     printShortestDistance(adj, source, dest, v);
     return 0;
 }
+
+// Output
+// Shortest path length is : 2
+// Path is: 0 3 7 
