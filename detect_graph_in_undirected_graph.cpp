@@ -72,3 +72,4 @@ int main() {
 }
 // Output
 // Graph contains cycle
+// Graph doesn't contain cycle/ Graph contains cycle
