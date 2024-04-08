@@ -1,7 +1,6 @@
-// ..........................Detect Cycle in a Directed Graph.......................
+Detect cycle in Undirected graph
 
-// Given the root of a Directed graph, The task is to check whether the graph contains a cycle if yes then return true, return false otherwise. 
-
+Given an undirected graph, The task is to check if there is a cycle in the given graph.
 #include <iostream>
 #include <limits.h>
 #include <list>
