@@ -1,6 +1,6 @@
-...................Detect cycle in Undirected graph...................
+// ...................Detect cycle in Undirected graph...................
 
-Given an undirected graph, The task is to check if there is a cycle in the given graph.
+// Given an undirected graph, The task is to check if there is a cycle in the given graph.
 
 #include <iostream>
 #include <limits.h>
