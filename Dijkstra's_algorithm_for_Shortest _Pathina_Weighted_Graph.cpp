@@ -1,3 +1,14 @@
+// ..................Dijkstra's Algorithm for Shortest Path in a Weighted Graph...................
+
+// Given a graph and a source vertex in the graph, find the shortest paths from source to all vertices in the given graph.
+
+
+// Dijkstra's algorithm is a variation of the BFS algorithm. In Dijkstra's Algorithm, a SPT(shortest path tree) is generated with given source as root. 
+// Each node at this SPT stores the value of the shortest path from the source vertex to the current vertex.
+// We maintain two sets, one set contains vertices included in shortest path tree, other set includes vertices not yet included in shortest path tree. 
+//At every step of the algorithm, we find a vertex which is in the other set (set of not yet included) and has a minimum distance from the source.
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
