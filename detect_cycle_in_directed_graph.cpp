@@ -60,4 +60,6 @@ int main() {
     else
         cout << "Graph doesn't contain cycle";
     return 0;
-}
+ }
+// Output
+// Graph contains cycle
