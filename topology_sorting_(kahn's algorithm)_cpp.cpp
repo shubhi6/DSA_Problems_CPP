@@ -78,3 +78,7 @@ int main() {
 
     return 0;
 }
+
+// Output
+// Following is a Topological Sort of
+// 4 5 2 0 3 1 
