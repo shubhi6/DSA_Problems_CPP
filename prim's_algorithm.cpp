@@ -1,18 +1,27 @@
-....................Prim's Minimum Spanning Tree Algorithm...............................
+// ....................Prim's Minimum Spanning Tree Algorithm...............................
 
-What is Minimum Spanning Tree?
+// What is Minimum Spanning Tree?
 
-Given a connected and undirected graph, a spanning tree of that graph is a subgraph that is a tree and connects all the vertices together. 
-A single graph can have many different spanning trees. A
+// Given a connected and undirected graph, a spanning tree of that graph is a subgraph that is a tree and connects all the vertices together. 
+// A single graph can have many different spanning trees. A
 
-minimum spanning tree (MST)
+// minimum spanning tree (MST)
 
-or minimum weight spanning tree for a weighted, connected and undirected graph is a spanning tree with weight less than or equal to the weight of every 
-other spanning tree. The weight of a spanning tree is the sum of weights given to each edge of the spanning tree.
+// or minimum weight spanning tree for a weighted, connected and undirected graph is a spanning tree with weight less than or equal to the weight of every 
+// other spanning tree. The weight of a spanning tree is the sum of weights given to each edge of the spanning tree.
 
-Number of edges in a minimum spanning tree:
+// Number of edges in a minimum spanning tree:
 
-A minimum spanning tree has (V – 1) edges where V is the number of vertices in the given graph.
+// A minimum spanning tree has (V – 1) edges where V is the number of vertices in the given graph.
+
+     /* Let us create the following graph 
+        2 3 
+    (0)--(1)--(2) 
+    | / \ | 
+    6| 8/ \5 |7 
+    | / \ | 
+    (3)-------(4) 
+            9     */
 
 #include <bits/stdc++.h>
 using namespace std;
