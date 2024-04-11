@@ -112,4 +112,10 @@ int main()
 
     return 0;
 }
-
+// Output:
+// Articulation points in first graph
+// 0 3
+// Articulation points in second graph
+// 1 2
+// Articulation points in third graph
+// 1
