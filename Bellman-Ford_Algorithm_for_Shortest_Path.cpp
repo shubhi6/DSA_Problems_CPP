@@ -105,3 +105,12 @@ int main()
 
     return 0;
 }
+// Output:
+// Vertex   Distance from Source
+// 0                0
+// 1                -1
+// 2                2
+// 3                -2
+// 4                1
+
+
