@@ -1,5 +1,9 @@
-#include <bits/stdc++.h>
+// Bellman-Ford Algorithm for Shortest Path
 
+// Problem: Given a graph and a source vertex src in graph, find shortest paths from src to all vertices in the given graph.
+//          The graph may contain negative weight edges.
+
+#include <bits/stdc++.h>
 struct Edge
 {
     int src, dest, weight;
