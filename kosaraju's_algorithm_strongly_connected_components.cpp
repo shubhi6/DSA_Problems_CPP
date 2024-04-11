@@ -113,4 +113,10 @@ int main()
     g.printSCCs();
     return 0;
 }
-_
+
+// Output:
+
+// Following are strongly connected components in given graph
+// 0 1 2
+// 3
+// 4
