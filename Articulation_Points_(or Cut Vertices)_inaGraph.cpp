@@ -1,3 +1,9 @@
+// .....................Articulation Points (or Cut Vertices) in a Graph.......................
+
+// A vertex in an undirected connected graph is an articulation point (or cut vertex) if and only if removing it (and edges through it) disconnects the graph.
+// Articulation points represent vulnerabilities in a connected network – single points whose failure would split the network into 2 or more disconnected components. 
+// They are useful for designing reliable networks.
+
 #include<iostream>
 #include <list>
 #define NIL -1
