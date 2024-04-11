@@ -1,3 +1,8 @@
+//............................ Number of Strongly Connected Components in an Undirected Graph.....................
+
+// Problem: Given an Undirected Graph. The task is to find the count of the number of strongly connected components in the given Graph.
+// A Strongly Connected Component is defined as a subgraph of this graph in which every pair of vertices has a path in between.
+
 
 //  the algorithm following the DFS traversal to find all connected components in an undirected graph:
 // 1) Initialize all vertices as not visited.
