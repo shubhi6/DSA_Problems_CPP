@@ -47,6 +47,12 @@ void Graph::connectedComponents()
     }
 }
 
+// Output:
+// Following are connected components 
+// 0 1 2 
+// 3 4
+
+
 void Graph::DFSUtil(int v, bool visited[])
 {
     visited[v] = true;
