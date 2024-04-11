@@ -1,3 +1,18 @@
+
+//  the algorithm following the DFS traversal to find all connected components in an undirected graph:
+// 1) Initialize all vertices as not visited.
+// 2) Do following for every vertex 'v'.
+//        (a) If 'v' is not visited before, call DFSUtil(v)
+//        (b) Print new line character
+
+// // This Function performs DFS traversal
+// // of vertex v.
+// DFSUtil(v)
+// 1) Mark 'v' as visited.
+// 2) Print 'v'
+// 3) Do following for every adjacent 'u' of 'v'.
+//      If 'u' is not visited, then recursively call DFSUtil(u)
+
 #include <iostream>
 #include <list>
 using namespace std;
