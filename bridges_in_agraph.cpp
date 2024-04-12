@@ -1,3 +1,10 @@
+// ...............Bridges in a Graph....................
+    
+// An edge in an undirected connected graph is a bridge if and only if removing it disconnects the graph. 
+// For a disconnected undirected graph, the definition is similar, a bridge is an edge removing which increases the number of disconnected components. 
+// Like Articulation Points bridges represent vulnerabilities in a connected network and are useful for designing reliable networks.
+//  For example, in a wired computer network, an articulation point indicates the critical computers and a bridge indicates the critical wires or connections.
+
 #include<iostream>
 #include <list>
 #define NIL -1
