@@ -103,3 +103,17 @@ int main()
 
     return 0;
 }
+
+// Output:
+
+// Bridges in first graph
+// 3 4
+// 0 3
+
+// Bridges in second graph
+// 2 3
+// 1 2
+// 0 1
+
+// Bridges in third graph
+// 1 6
