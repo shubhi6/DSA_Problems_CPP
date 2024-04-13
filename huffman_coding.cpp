@@ -142,4 +142,12 @@ int main() {
     int size = sizeof(arr) / sizeof(arr[0]);
     HuffmanCodes(arr, freq, size);
     return 0;
-}
+ }
+// Output:
+
+// f: 0
+// c: 100
+// d: 101
+// a: 1100
+// b: 1101
+// e: 111
