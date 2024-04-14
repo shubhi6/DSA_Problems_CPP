@@ -1,3 +1,8 @@
+// ...............................N-Queen Problem.................
+
+// Let us discuss N Queen as another example problem that can be solved using backtracking. 
+// The N Queen is the problem of placing N chess queens on an N×N chessboard so that no two queens attack each other.
+
 #include <bits/stdc++.h>
 using namespace std;
 
