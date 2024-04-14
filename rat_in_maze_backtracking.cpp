@@ -71,3 +71,13 @@ int main()
     solveMaze(maze);
     return 0;
 }
+
+ 
+
+// Output:
+// The 1 values show the path for rat 
+
+//  1  0  0  0 
+//  1  1  0  0 
+//  0  1  0  0 
+//  0  1  1  1 
